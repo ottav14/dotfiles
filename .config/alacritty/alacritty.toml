@@ -1,0 +1,6 @@
+[font]
+normal = { family = "Monocraft", style = "Regular" }
+
+[colors.primary]
+foreground = "#ffffff"
+background = "#000000"
