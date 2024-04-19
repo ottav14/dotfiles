@@ -1,5 +1,5 @@
 [font]
-normal = { family = "Monocraft", style = "Regular" }
+normal = { family = "Hack Nerd Font", style = "Regular" }
 
 [colors.primary]
 foreground = "#ffffff"

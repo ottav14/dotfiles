@@ -21,10 +21,13 @@ tiling_drag modifier titlebar
 
 # Binds
 bindsym $mod+Return exec alacritty
-bindsym $mod+e exec alacritty -e emacs -nw
+bindsym $mod+s exec alacritty -e ncspot
+bindsym $mod+t exec alacritty -e tmux
 bindsym $mod+b exec firefox
+bindsym $mod+f exec /home/dom/splorg/projects/scripts/tmux-fzf
 bindsym $mod+r exec rofi -show drun
 bindsym $mod+q kill
+bindsym $mod+e exec alacritty -e emacs -nw
 
 # change focus
 bindsym $mod+h focus left
@@ -39,7 +42,7 @@ bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 # enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+bindsym $mod+Shift+f fullscreen toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
