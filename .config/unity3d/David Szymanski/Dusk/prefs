@@ -1,0 +1,46 @@
+<unity_prefs version_major="1" version_minor="1">
+	<pref name="FakeLoadingScreen" type="int">0</pref>
+	<pref name="Screenmanager Fullscreen mode" type="int">1</pref>
+	<pref name="Screenmanager Resolution Height" type="int">1080</pref>
+	<pref name="Screenmanager Resolution Use Native" type="int">1</pref>
+	<pref name="Screenmanager Resolution Width" type="int">1920</pref>
+	<pref name="UnitySelectMonitor" type="int">0</pref>
+	<pref name="alwaysrun" type="int">1</pref>
+	<pref name="autoaim" type="float">0</pref>
+	<pref name="bfilter" type="int">0</pref>
+	<pref name="bloom" type="int">0</pref>
+	<pref name="bob" type="int">1</pref>
+	<pref name="brightness" type="float">0</pref>
+	<pref name="btint" type="float">255</pref>
+	<pref name="buck" type="int">1</pref>
+	<pref name="catint" type="float">154</pref>
+	<pref name="cbtint" type="float">160</pref>
+	<pref name="cgtint" type="float">255</pref>
+	<pref name="colorfilter" type="int">1</pref>
+	<pref name="contrast" type="float">0</pref>
+	<pref name="crosshairstyle" type="int">0</pref>
+	<pref name="crouchtoggle" type="int">1</pref>
+	<pref name="crtint" type="float">0</pref>
+	<pref name="didpreset" type="int">1</pref>
+	<pref name="difficulty" type="int">3</pref>
+	<pref name="flares" type="int">0</pref>
+	<pref name="fov" type="float">120</pref>
+	<pref name="fullscreen" type="int">1</pref>
+	<pref name="gtint" type="float">255</pref>
+	<pref name="hue" type="float">0</pref>
+	<pref name="inverty" type="int">0</pref>
+	<pref name="mastervolume" type="float">1</pref>
+	<pref name="mousesensitivity" type="float">0.5</pref>
+	<pref name="musicvolume" type="float">0.5</pref>
+	<pref name="pixel" type="float">1</pref>
+	<pref name="pixelfilter" type="int">1</pref>
+	<pref name="rtint" type="float">255</pref>
+	<pref name="saturation" type="float">0</pref>
+	<pref name="settingsexist6_2" type="int">1</pref>
+	<pref name="uitoggle" type="int">1</pref>
+	<pref name="unity.cloud_userid" type="string">M2I2ZWU4YWI3NDg5NzQwNGJiMzBiOTZkMGQ3NjA0NGI=</pref>
+	<pref name="unity.player_sessionid" type="string">NDg5ODUxMDc3NzQ5MDI4Mjc1Mw==</pref>
+	<pref name="vsync" type="int">0</pref>
+	<pref name="xres" type="int">1920</pref>
+	<pref name="yres" type="int">1080</pref>
+</unity_prefs>

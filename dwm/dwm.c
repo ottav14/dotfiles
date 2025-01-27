@@ -285,6 +285,11 @@ applyrules(Client *c)
 	XClassHint ch = { NULL, NULL };
 
 	/* rule matching */
+
+	// Padding
+	c->x = c->x + 5;
+	c->y = c->y + 5;
+
 	c->isfloating = 0;
 	c->tags = 0;
 	XGetClassHint(dpy, c->win, &ch);

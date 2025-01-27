@@ -1,0 +1,40 @@
+/home/dom/olympus
+[sharp] New TCP connection: 127.0.0.1:49474
+[sharp] Executing getversionstring
+[sharp] Executing getrunningpath
+[sharp] Executing getmodidtonamemap
+[CmdGetIdToNameMap] Cache location set to: /home/dom/.config/Olympus/cached-mod-ids-to-names.json
+[CmdGetIdToNameMap] Loading mod IDs from maddie480.ovh
+[sharp] Executing getuwppackagepath
+[sharp] Executing modlist
+[sharp] New CmdTask: (modlist)(thread#28>sharp.lua:431<scenes/modlist.lua:785)#1
+[CmdGetIdToNameMap] Loading mod IDs from /home/dom/.config/Olympus/cached-mod-ids-to-names.json
+[sharp] Executing getversionstring
+[sharp] Executing installmod
+[sharp] New CmdTask: (installMod)(thread#212>sharp.lua:431<scenes/installer.lua:372)#1
+Downloading mod from https://gamebanana.com/dl/1084726
+Downloading 1084726
+
+Downloading from https://gamebanana.com/dl/1084726 failed, trying another mirror.
+System.Net.WebException: The operation has timed out.
+  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <32fc020d7373456995b3d44fa885e01a>:0 
+  at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 count) [0x00085] in <32fc020d7373456995b3d44fa885e01a>:0 
+  at Olympus.Cmd+<Download>d__17.MoveNext () [0x001d9] in <4bfe97165e394a9aa9f81a1575a3e0b2>:0 
+  at Olympus.Cmd+<Try>d__15.MoveNext () [0x00018] in <4bfe97165e394a9aa9f81a1575a3e0b2>:0 
+Downloading mod from https://celestemodupdater.0x0a.de/banana-mirror/1084726.zip
+Downloading 1084726
+
+Downloaded 473517832 bytes in 50.85 seconds.
+Parsing everest.yaml
+Moving mod to VanillaContestAudio.zip
+Successfully installed VanillaContestAudio
+[sharp] Executing launch
+Starting Celeste process: /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste (without args)
+steam.sh[11738]: Running Steam on arch rolling 64-bit
+steam.sh[11738]: STEAM_RUNTIME is enabled automatically
+setup.sh[11796]: Steam runtime environment up-to-date!
+[sharp] Executing getversionstring
+[sharp] Executing modlist
+[sharp] New CmdTask: (modlist)(thread#682>sharp.lua:431<scenes/modlist.lua:785)#1
+[CmdGetIdToNameMap] Loading mod IDs from /home/dom/.config/Olympus/cached-mod-ids-to-names.json
+[sharp] Executing getversionstring

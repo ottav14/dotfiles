@@ -1,0 +1,33 @@
+[[main]] pre-initializing
+[[main]] cwd: /home/dom/olympus
+[[main]] src: /home/dom/olympus
+[[main]] storageDir: /home/dom/.config/Olympus
+[[main]] [finder] found Celeste.dll root /home/dom/.local/share/Steam/steamapps/common/Celeste
+[[main]] [finder] found Celeste.dll root /home/dom/.local/share/Steam/steamapps/common/Celeste
+[[main]] pre-initialized
+[[thread#0>sharp.lua:16<sharp.lua:501]] [sharp init] starting thread
+[[thread#0>sharp.lua:16<sharp.lua:501]] [sharp init] starting subprocess /home/dom/olympus/sharp/Olympus.Sharp.bin.x86_64 10581
+[[thread#0>sharp.lua:16<sharp.lua:501]] [sharp init] logging to /home/dom/.config/Olympus/log-sharp.txt
+[[thread#0>sharp.lua:16<sharp.lua:501]] [sharp init] reading init
+[[thread#0>sharp.lua:16<sharp.lua:501]] [sharp init] read init table: 0x72a5be184918
+[[thread#0>sharp.lua:16<sharp.lua:501]] [sharp init] startime 1729901149.7945
+[[main]] [finder] found Celeste.dll root /home/dom/.local/share/Steam/steamapps/common/Celeste
+[[main]] love2d version 11.5.0.Mysterious Mysteries
+[[main]] SDL2 version 2.28.5
+[[main]] Olympus version 24.09.21.01-azure-4338-97de7
+[[thread#3<scenes/mainmenu.lua:239]] [finder] steam root /home/dom/.local/share/Steam <same>
+[[thread#3<scenes/mainmenu.lua:239]] [finder] steam common /home/dom/.local/share/Steam/steamapps/common
+[[thread#3<scenes/mainmenu.lua:239]] [finder] steam common /home/dom/.local/share/Steam/steamapps/common
+[[thread#3<scenes/mainmenu.lua:239]] [finder] steam additional library /home/dom/.local/share/Steam/steamapps/common
+[[thread#3<scenes/mainmenu.lua:239]] [finder] steam install /home/dom/.local/share/Steam/steamapps/common/Celeste
+[[thread#3<scenes/mainmenu.lua:239]] [finder] steam install /home/dom/.local/share/Steam/steamapps/common/Celeste
+[[thread#3<scenes/mainmenu.lua:239]] [finder] steam root /home/dom/.local/share/Steam <same>
+[[thread#3<scenes/mainmenu.lua:239]] [finder] itch db /home/dom/.config/itch/db/butler.db false
+[[thread#3<scenes/mainmenu.lua:239]] [finder] lutris db /home/dom/.local/share/lutris/pga.db false
+[[thread#3<scenes/mainmenu.lua:239]] [finder] lutris root /home/dom/.config/lutris false
+[[thread#3<scenes/mainmenu.lua:239]] [finder] legendary root /home/dom/.config/legendary false
+[[thread#3<scenes/mainmenu.lua:239]] [finder] found Celeste.dll root /home/dom/.local/share/Steam/steamapps/common/Celeste
+[[thread#3<scenes/mainmenu.lua:239]] [finder] found Celeste.dll root /home/dom/.local/share/Steam/steamapps/common/Celeste
+[[thread#786<scenes/gamebanana.lua:752]] [thread error] thread#786<scenes/gamebanana.lua:752 utils.lua:178: attempt to index local 'headers' (a nil value)
+[[main]] ERROR
+[[main]] threader.lua:544: thread#786<scenes/gamebanana.lua:752 not running!

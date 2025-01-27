@@ -1,0 +1,19 @@
+[Personal]
+backend = "imap"
+email = "dominicjottaviano@gmail.com"
+default = true
+display-name = "Dom Ottaviano"
+imap-host = "imap.gmail.com"
+imap-port = 993
+imap-ssl = true
+imap-login = "dominicjottaviano@gmail.com"
+imap-auth = "passwd"
+sender = "smtp"
+smtp-host = "smtp.gmail.com"
+smtp-port = 465
+smtp-ssl = true
+smtp-login = "dominicjottaviano@gmail.com"
+smtp-auth = "passwd"
+
+[Personal.pgp]
+backend = "none"

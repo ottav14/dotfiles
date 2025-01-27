@@ -1,5 +1,7 @@
 #!/bin/bash
 slstatus &
 xbindkeys &
-/home/dom/projects/scripts/random-wallpaper &
-exec dwm
+picom &
+polybar &
+feh --bg-fill /home/dom/wallpapers/sprites.jpg
+exec i3

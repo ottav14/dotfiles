@@ -1,5 +1,7 @@
+PS1='%F{blue}%n%f@%F{magenta}%m%f: %~ %F{yellow}$ %f'
 export PATH=$PATH:/home/dom/projects/scripts
-PS1='%F{blue}%n%f@%F{green}%m%f: %~ %F{yellow}$ %f'
+export MANPAGER="less -sR"
+export INFO_BROWSER=pinfo
 
 alias e='emacs -nw'
 alias v='vim'
@@ -16,8 +18,9 @@ alias y='yay -S'
 alias ys='yay'
 alias yd='yay -R'
 alias yq='yay -Q'
-alias f='cd "$(find /home/dom/projects/ -type d | fzf)" && tmux'
-alias b='sudo bluetoothctl'
+alias f='cd "$(find /home/dom/projects -type d | fzf)" && tmux'
+alias b='bluetui'
+alias bg='feh --bg-fill'
 alias xr='xrandr --output HDMI-2 --mode 1920x1080 --right-of eDP-1'
 alias xo='xrandr --output HDMI-2 --off'
 alias se='sudo systemctl enable'
@@ -33,3 +36,6 @@ alias shutdown='sudo shutdown -P now'
 alias pak='pulseaudio -k'
 alias pas='pulseaudio --start'
 alias smi='sudo make install'
+alias hr='hyprctl reload'
+alias starwars='telnet towel.blinkenlights.nl'
+alias pipes='pipes.sh'

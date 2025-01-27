@@ -1,0 +1,16 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="Exit">
+      <i c="1" l="1729919994913" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="1" l="1729920019789" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1729919930960" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="2" l="1729920008808" />
+    </e>
+  </component>
+</application>

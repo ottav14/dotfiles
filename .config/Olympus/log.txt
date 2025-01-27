@@ -1,0 +1,30 @@
+[[main]] pre-initializing
+[[main]] cwd: /home/dom/scratch
+[[main]] src: /home/dom/scratch
+[[main]] storageDir: /home/dom/.config/Olympus
+[[main]] [finder] found Celeste.exe root /home/dom/.local/share/Steam/steamapps/common/Celeste
+[[main]] [finder] found Celeste.exe root /home/dom/.local/share/Steam/steamapps/common/Celeste
+[[main]] pre-initialized
+[[thread#0>sharp.lua:16<sharp.lua:494]] [sharp init] starting thread
+[[thread#0>sharp.lua:16<sharp.lua:494]] [sharp init] starting subprocess /home/dom/scratch/sharp/Olympus.Sharp 28609
+[[thread#0>sharp.lua:16<sharp.lua:494]] [sharp init] logging to /home/dom/.config/Olympus/log-sharp.txt
+[[thread#0>sharp.lua:16<sharp.lua:494]] [sharp init] reading init
+[[thread#0>sharp.lua:16<sharp.lua:494]] [sharp init] read init table: 0x7c08d17f4ff0
+[[thread#0>sharp.lua:16<sharp.lua:494]] [sharp init] startime 1737785744.9828
+[[main]] [finder] found Celeste.exe root /home/dom/.local/share/Steam/steamapps/common/Celeste
+[[main]] love2d version 11.5.0.Mysterious Mysteries
+[[main]] SDL2 version 2.28.5
+[[main]] Olympus version 25.01.22.02-azure-4571-4c042
+[[thread#3<scenes/mainmenu.lua:239]] [finder] steam root /home/dom/.local/share/Steam <same>
+[[thread#3<scenes/mainmenu.lua:239]] [finder] steam common /home/dom/.local/share/Steam/steamapps/common
+[[thread#3<scenes/mainmenu.lua:239]] [finder] steam common /home/dom/.local/share/Steam/steamapps/common
+[[thread#3<scenes/mainmenu.lua:239]] [finder] steam additional library /home/dom/.local/share/Steam/steamapps/common
+[[thread#3<scenes/mainmenu.lua:239]] [finder] steam install /home/dom/.local/share/Steam/steamapps/common/Celeste
+[[thread#3<scenes/mainmenu.lua:239]] [finder] steam install /home/dom/.local/share/Steam/steamapps/common/Celeste
+[[thread#3<scenes/mainmenu.lua:239]] [finder] steam root /home/dom/.local/share/Steam <same>
+[[thread#3<scenes/mainmenu.lua:239]] [finder] itch db /home/dom/.config/itch/db/butler.db false
+[[thread#3<scenes/mainmenu.lua:239]] [finder] lutris db /home/dom/.local/share/lutris/pga.db false
+[[thread#3<scenes/mainmenu.lua:239]] [finder] lutris root /home/dom/.config/lutris false
+[[thread#3<scenes/mainmenu.lua:239]] [finder] legendary root /home/dom/.config/legendary false
+[[thread#3<scenes/mainmenu.lua:239]] [finder] found Celeste.exe root /home/dom/.local/share/Steam/steamapps/common/Celeste
+[[thread#3<scenes/mainmenu.lua:239]] [finder] found Celeste.exe root /home/dom/.local/share/Steam/steamapps/common/Celeste

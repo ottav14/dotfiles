@@ -1,0 +1,15 @@
+
+
+-----------------------------------------
+01:10:57.265 : Starting log.
+01:10:57.265 INFO : Cataclysm DDA version 0.H
+01:10:57.268 INFO : [main] C locale set to en_US.UTF-8
+01:10:57.268 INFO : [main] C++ locale set to en_US.UTF-8
+01:10:57.288 INFO : [options] C locale set to en_US.UTF-8
+01:10:57.288 INFO : [options] C++ locale set to en_US.UTF-8
+01:10:57.289 INFO : Setting language to: 'en'
+01:10:57.289 INFO : [i18n] Scanning core translations from /usr/share/locale
+01:10:57.313 WARNING : opendir [/usr/share/cataclysm-dda/cache] failed with "No such file or directory".
+01:13:52.182 : Log shutdown.
+-----------------------------------------
+

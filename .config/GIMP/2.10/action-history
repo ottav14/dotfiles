@@ -1,0 +1,16 @@
+# GIMP action-history
+
+(history-item "tools-move" 1)
+(history-item "file-open" 0)
+(history-item "tools-zoom" 1)
+(history-item "tools-scale" 2)
+(history-item "tools-by-color-select" 0)
+(history-item "edit-clear" 0)
+(history-item "select-none" 1)
+(history-item "layers-delete" 1)
+(history-item "edit-copy" 0)
+(history-item "layers-new" 0)
+(history-item "file-open-as-layers" 0)
+(history-item "file-save" 1)
+
+# end of action-history

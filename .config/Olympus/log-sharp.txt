@@ -1,0 +1,490 @@
+/home/dom/scratch
+[sharp] New TCP connection: 127.0.0.1:44530
+[sharp] Executing getversionstring
+[sharp] Executing getrunningpath
+[sharp] Executing getmodidtonamemap
+[CmdGetIdToNameMap] Cache location set to: /home/dom/.config/Olympus/cached-mod-ids-to-names.json
+[CmdGetIdToNameMap] Loading mod IDs from maddie480.ovh
+[sharp] Executing getversionstring
+[sharp] Executing installeverest
+[sharp] New CmdTask: (installEverest)(thread#35>sharp.lua:424<scenes/installer.lua:371)#1
+Downloading metadata
+Downloading olympus-build.zip
+Downloading olympus-build.zip
+
+Downloaded 70830386 bytes in 2.20 seconds.
+Unzipping olympus-build.zip
+Unzipping 172 files
+Unzipping #0 / 172: everest-lib/FNA.dll
+everest-lib/FNA.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/FNA.dll
+Unzipping #1 / 172: everest-lib/FNA.pdb
+everest-lib/FNA.pdb -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/FNA.pdb
+Unzipping #2 / 172: everest-lib/gamecontrollerdb.txt
+everest-lib/gamecontrollerdb.txt -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/gamecontrollerdb.txt
+Unzipping #3 / 172: everest-lib/piton-runtime.yaml
+everest-lib/piton-runtime.yaml -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/piton-runtime.yaml
+Unzipping #4 / 172: everest-lib/lib64-linux/libdiscord_game_sdk.so
+everest-lib/lib64-linux/libdiscord_game_sdk.so -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-linux/libdiscord_game_sdk.so
+Unzipping #5 / 172: everest-lib/lib64-linux/libFAudio.so.0
+everest-lib/lib64-linux/libFAudio.so.0 -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-linux/libFAudio.so.0
+Unzipping #6 / 172: everest-lib/lib64-linux/libFNA3D.so.0
+everest-lib/lib64-linux/libFNA3D.so.0 -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-linux/libFNA3D.so.0
+Unzipping #7 / 172: everest-lib/lib64-linux/libSDL2-2.0.so.0
+everest-lib/lib64-linux/libSDL2-2.0.so.0 -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-linux/libSDL2-2.0.so.0
+Unzipping #8 / 172: everest-lib/lib64-linux/libtheorafile.so
+everest-lib/lib64-linux/libtheorafile.so -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-linux/libtheorafile.so
+Unzipping #9 / 172: everest-lib/lib64-osx/libdiscord_game_sdk.dylib
+everest-lib/lib64-osx/libdiscord_game_sdk.dylib -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-osx/libdiscord_game_sdk.dylib
+Unzipping #10 / 172: everest-lib/lib64-osx/libFAudio.0.dylib
+everest-lib/lib64-osx/libFAudio.0.dylib -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-osx/libFAudio.0.dylib
+Unzipping #11 / 172: everest-lib/lib64-osx/libFNA3D.0.dylib
+everest-lib/lib64-osx/libFNA3D.0.dylib -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-osx/libFNA3D.0.dylib
+Unzipping #12 / 172: everest-lib/lib64-osx/libMoltenVK.dylib
+everest-lib/lib64-osx/libMoltenVK.dylib -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-osx/libMoltenVK.dylib
+Unzipping #13 / 172: everest-lib/lib64-osx/libSDL2-2.0.0.dylib
+everest-lib/lib64-osx/libSDL2-2.0.0.dylib -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-osx/libSDL2-2.0.0.dylib
+Unzipping #14 / 172: everest-lib/lib64-osx/libtheorafile.dll
+everest-lib/lib64-osx/libtheorafile.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-osx/libtheorafile.dll
+Unzipping #15 / 172: everest-lib/lib64-osx/libtheorafile.dylib
+everest-lib/lib64-osx/libtheorafile.dylib -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-osx/libtheorafile.dylib
+Unzipping #16 / 172: everest-lib/lib64-osx/libvulkan.1.dylib
+everest-lib/lib64-osx/libvulkan.1.dylib -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-osx/libvulkan.1.dylib
+Unzipping #17 / 172: everest-lib/vulkan/icd.d/MoltenVK_icd.json
+everest-lib/vulkan/icd.d/MoltenVK_icd.json -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/vulkan/icd.d/MoltenVK_icd.json
+Unzipping #18 / 172: everest-lib/lib64-win-x86/CSteamworks.dll
+everest-lib/lib64-win-x86/CSteamworks.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x86/CSteamworks.dll
+Unzipping #19 / 172: everest-lib/lib64-win-x86/discord_game_sdk.dll
+everest-lib/lib64-win-x86/discord_game_sdk.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x86/discord_game_sdk.dll
+Unzipping #20 / 172: everest-lib/lib64-win-x86/FAudio.dll
+everest-lib/lib64-win-x86/FAudio.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x86/FAudio.dll
+Unzipping #21 / 172: everest-lib/lib64-win-x86/FNA3D.dll
+everest-lib/lib64-win-x86/FNA3D.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x86/FNA3D.dll
+Unzipping #22 / 172: everest-lib/lib64-win-x86/libtheorafile.dll
+everest-lib/lib64-win-x86/libtheorafile.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x86/libtheorafile.dll
+Unzipping #23 / 172: everest-lib/lib64-win-x86/SDL2.dll
+everest-lib/lib64-win-x86/SDL2.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x86/SDL2.dll
+Unzipping #24 / 172: everest-lib/piton/piton-gui-macos_x64
+everest-lib/piton/piton-gui-macos_x64 -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/piton/piton-gui-macos_x64
+Unzipping #25 / 172: everest-lib/piton/piton-gui-win_x64.exe
+everest-lib/piton/piton-gui-win_x64.exe -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/piton/piton-gui-win_x64.exe
+Unzipping #26 / 172: everest-lib/piton/piton-gui-win_x86.exe
+everest-lib/piton/piton-gui-win_x86.exe -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/piton/piton-gui-win_x86.exe
+Unzipping #27 / 172: everest-lib/piton/piton-linux_x64
+everest-lib/piton/piton-linux_x64 -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/piton/piton-linux_x64
+Unzipping #28 / 172: everest-lib/piton/README.md
+everest-lib/piton/README.md -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/piton/README.md
+Unzipping #29 / 172: everest-lib/lib-vanilla/FAudio.dll
+everest-lib/lib-vanilla/FAudio.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/FAudio.dll
+Unzipping #30 / 172: everest-lib/lib-vanilla/FNA.dll
+everest-lib/lib-vanilla/FNA.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/FNA.dll
+Unzipping #31 / 172: everest-lib/lib-vanilla/FNA3D.dll
+everest-lib/lib-vanilla/FNA3D.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/FNA3D.dll
+Unzipping #32 / 172: everest-lib/lib-vanilla/SDL2.dll
+everest-lib/lib-vanilla/SDL2.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/SDL2.dll
+Unzipping #33 / 172: everest-lib/lib-vanilla/osx/libFAudio.0.dylib
+everest-lib/lib-vanilla/osx/libFAudio.0.dylib -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/osx/libFAudio.0.dylib
+Unzipping #34 / 172: everest-lib/lib-vanilla/osx/libFNA3D.0.dylib
+everest-lib/lib-vanilla/osx/libFNA3D.0.dylib -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/osx/libFNA3D.0.dylib
+Unzipping #35 / 172: everest-lib/lib-vanilla/osx/libMoltenVK.dylib
+everest-lib/lib-vanilla/osx/libMoltenVK.dylib -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/osx/libMoltenVK.dylib
+Unzipping #36 / 172: everest-lib/lib-vanilla/osx/libSDL2-2.0.0.dylib
+everest-lib/lib-vanilla/osx/libSDL2-2.0.0.dylib -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/osx/libSDL2-2.0.0.dylib
+Unzipping #37 / 172: everest-lib/lib-vanilla/osx/libtheorafile.dll
+everest-lib/lib-vanilla/osx/libtheorafile.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/osx/libtheorafile.dll
+Unzipping #38 / 172: everest-lib/lib-vanilla/osx/libtheorafile.dylib
+everest-lib/lib-vanilla/osx/libtheorafile.dylib -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/osx/libtheorafile.dylib
+Unzipping #39 / 172: everest-lib/lib-vanilla/osx/libvulkan.1.dylib
+everest-lib/lib-vanilla/osx/libvulkan.1.dylib -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/osx/libvulkan.1.dylib
+Unzipping #40 / 172: everest-lib/lib-vanilla/vulkan/icd.d/MoltenVK_icd.json
+everest-lib/lib-vanilla/vulkan/icd.d/MoltenVK_icd.json -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/vulkan/icd.d/MoltenVK_icd.json
+Unzipping #41 / 172: everest-lib/lib-vanilla/lib64/libFAudio.so.0
+everest-lib/lib-vanilla/lib64/libFAudio.so.0 -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/lib64/libFAudio.so.0
+Unzipping #42 / 172: everest-lib/lib-vanilla/lib64/libFNA3D.so.0
+everest-lib/lib-vanilla/lib64/libFNA3D.so.0 -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/lib64/libFNA3D.so.0
+Unzipping #43 / 172: everest-lib/lib-vanilla/lib64/libSDL2-2.0.so.0
+everest-lib/lib-vanilla/lib64/libSDL2-2.0.so.0 -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/lib64/libSDL2-2.0.so.0
+Unzipping #44 / 172: everest-lib/lib-vanilla/lib64/libtheorafile.so
+everest-lib/lib-vanilla/lib64/libtheorafile.so -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib-vanilla/lib64/libtheorafile.so
+Unzipping #45 / 172: everest-lib/lib64-win-x64/CSteamworks.dll
+everest-lib/lib64-win-x64/CSteamworks.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x64/CSteamworks.dll
+Unzipping #46 / 172: everest-lib/lib64-win-x64/discord_game_sdk.dll
+everest-lib/lib64-win-x64/discord_game_sdk.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x64/discord_game_sdk.dll
+Unzipping #47 / 172: everest-lib/lib64-win-x64/EULA-FMOD.txt
+everest-lib/lib64-win-x64/EULA-FMOD.txt -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x64/EULA-FMOD.txt
+Unzipping #48 / 172: everest-lib/lib64-win-x64/FAudio.dll
+everest-lib/lib64-win-x64/FAudio.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x64/FAudio.dll
+Unzipping #49 / 172: everest-lib/lib64-win-x64/fmod64.dll
+everest-lib/lib64-win-x64/fmod64.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x64/fmod64.dll
+Unzipping #50 / 172: everest-lib/lib64-win-x64/fmodstudio64.dll
+everest-lib/lib64-win-x64/fmodstudio64.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x64/fmodstudio64.dll
+Unzipping #51 / 172: everest-lib/lib64-win-x64/FNA3D.dll
+everest-lib/lib64-win-x64/FNA3D.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x64/FNA3D.dll
+Unzipping #52 / 172: everest-lib/lib64-win-x64/libtheorafile.dll
+everest-lib/lib64-win-x64/libtheorafile.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x64/libtheorafile.dll
+Unzipping #53 / 172: everest-lib/lib64-win-x64/SDL2.dll
+everest-lib/lib64-win-x64/SDL2.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x64/SDL2.dll
+Unzipping #54 / 172: everest-lib/lib64-win-x64/steam_api64.dll
+everest-lib/lib64-win-x64/steam_api64.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-win-x64/steam_api64.dll
+Unzipping #55 / 172: EverestSplash/EverestSplash-linux
+EverestSplash/EverestSplash-linux -> /home/dom/.local/share/Steam/steamapps/common/Celeste/EverestSplash/EverestSplash-linux
+Unzipping #56 / 172: EverestSplash/EverestSplash-osx
+EverestSplash/EverestSplash-osx -> /home/dom/.local/share/Steam/steamapps/common/Celeste/EverestSplash/EverestSplash-osx
+Unzipping #57 / 172: EverestSplash/EverestSplash-win.exe
+EverestSplash/EverestSplash-win.exe -> /home/dom/.local/share/Steam/steamapps/common/Celeste/EverestSplash/EverestSplash-win.exe
+Unzipping #58 / 172: EverestSplash/EverestSplash-win64.exe
+EverestSplash/EverestSplash-win64.exe -> /home/dom/.local/share/Steam/steamapps/common/Celeste/EverestSplash/EverestSplash-win64.exe
+Unzipping #59 / 172: EverestSplash/EverestSplash.deps.json
+EverestSplash/EverestSplash.deps.json -> /home/dom/.local/share/Steam/steamapps/common/Celeste/EverestSplash/EverestSplash.deps.json
+Unzipping #60 / 172: EverestSplash/EverestSplash.dll
+EverestSplash/EverestSplash.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/EverestSplash/EverestSplash.dll
+Unzipping #61 / 172: EverestSplash/EverestSplash.pdb
+EverestSplash/EverestSplash.pdb -> /home/dom/.local/share/Steam/steamapps/common/Celeste/EverestSplash/EverestSplash.pdb
+Unzipping #62 / 172: EverestSplash/EverestSplash.runtimeconfig.json
+EverestSplash/EverestSplash.runtimeconfig.json -> /home/dom/.local/share/Steam/steamapps/common/Celeste/EverestSplash/EverestSplash.runtimeconfig.json
+Unzipping #63 / 172: EverestSplash/piton-runtime.yaml
+EverestSplash/piton-runtime.yaml -> /home/dom/.local/share/Steam/steamapps/common/Celeste/EverestSplash/piton-runtime.yaml
+Unzipping #64 / 172: piton-apphosts/linux
+piton-apphosts/linux -> /home/dom/.local/share/Steam/steamapps/common/Celeste/piton-apphosts/linux
+Unzipping #65 / 172: piton-apphosts/osx
+piton-apphosts/osx -> /home/dom/.local/share/Steam/steamapps/common/Celeste/piton-apphosts/osx
+Unzipping #66 / 172: piton-apphosts/win.x64.exe
+piton-apphosts/win.x64.exe -> /home/dom/.local/share/Steam/steamapps/common/Celeste/piton-apphosts/win.x64.exe
+Unzipping #67 / 172: piton-apphosts/win.x86.exe
+piton-apphosts/win.x86.exe -> /home/dom/.local/share/Steam/steamapps/common/Celeste/piton-apphosts/win.x86.exe
+Unzipping #68 / 172: runtimes/maccatalyst/native/liblua54.framework/Info.plist
+runtimes/maccatalyst/native/liblua54.framework/Info.plist -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/maccatalyst/native/liblua54.framework/Info.plist
+Unzipping #69 / 172: runtimes/maccatalyst/native/liblua54.framework/liblua54
+runtimes/maccatalyst/native/liblua54.framework/liblua54 -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/maccatalyst/native/liblua54.framework/liblua54
+Unzipping #70 / 172: runtimes/android-x64/native/liblua54.so
+runtimes/android-x64/native/liblua54.so -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/android-x64/native/liblua54.so
+Unzipping #71 / 172: runtimes/osx/native/liblua54.dylib
+runtimes/osx/native/liblua54.dylib -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/osx/native/liblua54.dylib
+Unzipping #72 / 172: runtimes/android-arm64/native/liblua54.so
+runtimes/android-arm64/native/liblua54.so -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/android-arm64/native/liblua54.so
+Unzipping #73 / 172: runtimes/win-arm64/native/lua54.dll
+runtimes/win-arm64/native/lua54.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/win-arm64/native/lua54.dll
+Unzipping #74 / 172: runtimes/ios/native/liblua54.framework/Info.plist
+runtimes/ios/native/liblua54.framework/Info.plist -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/ios/native/liblua54.framework/Info.plist
+Unzipping #75 / 172: runtimes/ios/native/liblua54.framework/liblua54
+runtimes/ios/native/liblua54.framework/liblua54 -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/ios/native/liblua54.framework/liblua54
+Unzipping #76 / 172: runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll
+runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll
+Unzipping #77 / 172: runtimes/win/lib/net7.0/System.Drawing.Common.dll
+runtimes/win/lib/net7.0/System.Drawing.Common.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/win/lib/net7.0/System.Drawing.Common.dll
+Unzipping #78 / 172: runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+Unzipping #79 / 172: runtimes/android-x86/native/liblua54.so
+runtimes/android-x86/native/liblua54.so -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/android-x86/native/liblua54.so
+Unzipping #80 / 172: runtimes/android-arm/native/liblua54.so
+runtimes/android-arm/native/liblua54.so -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/android-arm/native/liblua54.so
+Unzipping #81 / 172: runtimes/win-arm/native/lua54.dll
+runtimes/win-arm/native/lua54.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/win-arm/native/lua54.dll
+Unzipping #82 / 172: runtimes/win-x86/native/lua54.dll
+runtimes/win-x86/native/lua54.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/win-x86/native/lua54.dll
+Unzipping #83 / 172: runtimes/tvos/native/liblua54.framework/Info.plist
+runtimes/tvos/native/liblua54.framework/Info.plist -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/tvos/native/liblua54.framework/Info.plist
+Unzipping #84 / 172: runtimes/tvos/native/liblua54.framework/liblua54
+runtimes/tvos/native/liblua54.framework/liblua54 -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/tvos/native/liblua54.framework/liblua54
+Unzipping #85 / 172: runtimes/linux-x64/native/liblua54.so
+runtimes/linux-x64/native/liblua54.so -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/linux-x64/native/liblua54.so
+Unzipping #86 / 172: runtimes/win-x64/native/lua54.dll
+runtimes/win-x64/native/lua54.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/win-x64/native/lua54.dll
+Unzipping #87 / 172: Celeste-icon.png
+Celeste-icon.png -> /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste-icon.png
+Unzipping #88 / 172: Celeste.Mod.mm.deps.json
+Celeste.Mod.mm.deps.json -> /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste.Mod.mm.deps.json
+Unzipping #89 / 172: Celeste.Mod.mm.dll
+Celeste.Mod.mm.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste.Mod.mm.dll
+Unzipping #90 / 172: Celeste.Mod.mm.pdb
+Celeste.Mod.mm.pdb -> /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste.Mod.mm.pdb
+Unzipping #91 / 172: Celeste.Mod.mm.xml
+Celeste.Mod.mm.xml -> /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste.Mod.mm.xml
+Unzipping #92 / 172: Celeste.xml
+Celeste.xml -> /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste.xml
+Unzipping #93 / 172: DiscordGameSDK.dll
+DiscordGameSDK.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/DiscordGameSDK.dll
+Unzipping #94 / 172: DiscordGameSDK.pdb
+DiscordGameSDK.pdb -> /home/dom/.local/share/Steam/steamapps/common/Celeste/DiscordGameSDK.pdb
+Unzipping #95 / 172: DotNetZip.dll
+DotNetZip.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/DotNetZip.dll
+Unzipping #96 / 172: FNA.xml
+FNA.xml -> /home/dom/.local/share/Steam/steamapps/common/Celeste/FNA.xml
+Unzipping #97 / 172: Jdenticon.dll
+Jdenticon.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/Jdenticon.dll
+Unzipping #98 / 172: KeraLua.dll
+KeraLua.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/KeraLua.dll
+Unzipping #99 / 172: MAB.DotIgnore.dll
+MAB.DotIgnore.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MAB.DotIgnore.dll
+Unzipping #100 / 172: Microsoft.NET.HostModel.dll
+Microsoft.NET.HostModel.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/Microsoft.NET.HostModel.dll
+Unzipping #101 / 172: Microsoft.Win32.SystemEvents.dll
+Microsoft.Win32.SystemEvents.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/Microsoft.Win32.SystemEvents.dll
+Unzipping #102 / 172: MiniInstaller-linux
+MiniInstaller-linux -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MiniInstaller-linux
+Unzipping #103 / 172: MiniInstaller-osx
+MiniInstaller-osx -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MiniInstaller-osx
+Unzipping #104 / 172: MiniInstaller-win.exe
+MiniInstaller-win.exe -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MiniInstaller-win.exe
+Unzipping #105 / 172: MiniInstaller-win64.exe
+MiniInstaller-win64.exe -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MiniInstaller-win64.exe
+Unzipping #106 / 172: MiniInstaller.deps.json
+MiniInstaller.deps.json -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MiniInstaller.deps.json
+Unzipping #107 / 172: MiniInstaller.dll
+MiniInstaller.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MiniInstaller.dll
+Unzipping #108 / 172: MiniInstaller.pdb
+MiniInstaller.pdb -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MiniInstaller.pdb
+Unzipping #109 / 172: MiniInstaller.runtimeconfig.json
+MiniInstaller.runtimeconfig.json -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MiniInstaller.runtimeconfig.json
+Unzipping #110 / 172: Mono.Cecil.dll
+Mono.Cecil.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/Mono.Cecil.dll
+Unzipping #111 / 172: Mono.Cecil.Mdb.dll
+Mono.Cecil.Mdb.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/Mono.Cecil.Mdb.dll
+Unzipping #112 / 172: Mono.Cecil.Pdb.dll
+Mono.Cecil.Pdb.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/Mono.Cecil.Pdb.dll
+Unzipping #113 / 172: Mono.Cecil.Rocks.dll
+Mono.Cecil.Rocks.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/Mono.Cecil.Rocks.dll
+Unzipping #114 / 172: MonoMod.Backports.dll
+MonoMod.Backports.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Backports.dll
+Unzipping #115 / 172: MonoMod.Backports.pdb
+MonoMod.Backports.pdb -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Backports.pdb
+Unzipping #116 / 172: MonoMod.Backports.xml
+MonoMod.Backports.xml -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Backports.xml
+Unzipping #117 / 172: MonoMod.Core.dll
+MonoMod.Core.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Core.dll
+Unzipping #118 / 172: MonoMod.Core.pdb
+MonoMod.Core.pdb -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Core.pdb
+Unzipping #119 / 172: MonoMod.Core.xml
+MonoMod.Core.xml -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Core.xml
+Unzipping #120 / 172: MonoMod.Iced.dll
+MonoMod.Iced.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Iced.dll
+Unzipping #121 / 172: MonoMod.Iced.pdb
+MonoMod.Iced.pdb -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Iced.pdb
+Unzipping #122 / 172: MonoMod.Iced.xml
+MonoMod.Iced.xml -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Iced.xml
+Unzipping #123 / 172: MonoMod.ILHelpers.dll
+MonoMod.ILHelpers.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.ILHelpers.dll
+Unzipping #124 / 172: MonoMod.ILHelpers.pdb
+MonoMod.ILHelpers.pdb -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.ILHelpers.pdb
+Unzipping #125 / 172: MonoMod.Patcher
+MonoMod.Patcher -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Patcher
+Unzipping #126 / 172: MonoMod.Patcher.dll
+MonoMod.Patcher.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Patcher.dll
+Unzipping #127 / 172: MonoMod.Patcher.pdb
+MonoMod.Patcher.pdb -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Patcher.pdb
+Unzipping #128 / 172: MonoMod.Patcher.runtimeconfig.json
+MonoMod.Patcher.runtimeconfig.json -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Patcher.runtimeconfig.json
+Unzipping #129 / 172: MonoMod.Patcher.xml
+MonoMod.Patcher.xml -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Patcher.xml
+Unzipping #130 / 172: MonoMod.RuntimeDetour.dll
+MonoMod.RuntimeDetour.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.RuntimeDetour.dll
+Unzipping #131 / 172: MonoMod.RuntimeDetour.HookGen
+MonoMod.RuntimeDetour.HookGen -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.RuntimeDetour.HookGen
+Unzipping #132 / 172: MonoMod.RuntimeDetour.HookGen.dll
+MonoMod.RuntimeDetour.HookGen.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.RuntimeDetour.HookGen.dll
+Unzipping #133 / 172: MonoMod.RuntimeDetour.HookGen.pdb
+MonoMod.RuntimeDetour.HookGen.pdb -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.RuntimeDetour.HookGen.pdb
+Unzipping #134 / 172: MonoMod.RuntimeDetour.HookGen.runtimeconfig.json
+MonoMod.RuntimeDetour.HookGen.runtimeconfig.json -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.RuntimeDetour.HookGen.runtimeconfig.json
+Unzipping #135 / 172: MonoMod.RuntimeDetour.HookGen.xml
+MonoMod.RuntimeDetour.HookGen.xml -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.RuntimeDetour.HookGen.xml
+Unzipping #136 / 172: MonoMod.RuntimeDetour.pdb
+MonoMod.RuntimeDetour.pdb -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.RuntimeDetour.pdb
+Unzipping #137 / 172: MonoMod.RuntimeDetour.xml
+MonoMod.RuntimeDetour.xml -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.RuntimeDetour.xml
+Unzipping #138 / 172: MonoMod.Utils.dll
+MonoMod.Utils.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Utils.dll
+Unzipping #139 / 172: MonoMod.Utils.pdb
+MonoMod.Utils.pdb -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Utils.pdb
+Unzipping #140 / 172: MonoMod.Utils.xml
+MonoMod.Utils.xml -> /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Utils.xml
+Unzipping #141 / 172: NETCoreifier.deps.json
+NETCoreifier.deps.json -> /home/dom/.local/share/Steam/steamapps/common/Celeste/NETCoreifier.deps.json
+Unzipping #142 / 172: NETCoreifier.dll
+NETCoreifier.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/NETCoreifier.dll
+Unzipping #143 / 172: NETCoreifier.pdb
+NETCoreifier.pdb -> /home/dom/.local/share/Steam/steamapps/common/Celeste/NETCoreifier.pdb
+Unzipping #144 / 172: Newtonsoft.Json.dll
+Newtonsoft.Json.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/Newtonsoft.Json.dll
+Unzipping #145 / 172: NLua.dll
+NLua.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/NLua.dll
+Unzipping #146 / 172: NLua.pdb
+NLua.pdb -> /home/dom/.local/share/Steam/steamapps/common/Celeste/NLua.pdb
+Unzipping #147 / 172: piton-runtime.yaml
+piton-runtime.yaml -> /home/dom/.local/share/Steam/steamapps/common/Celeste/piton-runtime.yaml
+Unzipping #148 / 172: System.Drawing.Common.dll
+System.Drawing.Common.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Drawing.Common.dll
+Unzipping #149 / 172: System.Security.Permissions.dll
+System.Security.Permissions.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Security.Permissions.dll
+Unzipping #150 / 172: System.Windows.Extensions.dll
+System.Windows.Extensions.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Windows.Extensions.dll
+Unzipping #151 / 172: YamlDotNet.dll
+YamlDotNet.dll -> /home/dom/.local/share/Steam/steamapps/common/Celeste/YamlDotNet.dll
+Unzipped 172 files
+Starting native MiniInstaller
+Ensuring /home/dom/.local/share/Steam/steamapps/common/Celeste/MiniInstaller-linux is executable
+Running MiniInstaller executable: /home/dom/.local/share/Steam/steamapps/common/Celeste/MiniInstaller-linux
+Everest MiniInstaller
+/home/dom/.local/share/Steam/steamapps/common/Celeste
+Creating Mods directory
+Determined install platform: Linux
+Creating backup orig directory
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste.exe => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/Celeste.exe
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/mscorlib.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/mscorlib.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/FNA.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/FNA.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Core.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/System.Core.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/System.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/System.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/Mono.Security.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/Mono.Security.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Configuration.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/System.Configuration.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Xml.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/System.Xml.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Security.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/System.Security.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Numerics.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/System.Numerics.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/Mono.Posix.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/Mono.Posix.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/Steamworks.NET.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/Steamworks.NET.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Runtime.Serialization.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/System.Runtime.Serialization.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Drawing.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/System.Drawing.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Xml.Linq.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/System.Xml.Linq.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Data.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/System.Data.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/Celeste
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste.bin.x86 => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/Celeste.bin.x86
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste.bin.x86_64 => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/Celeste.bin.x86_64
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/monoconfig => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/monoconfig
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/monomachineconfig => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/monomachineconfig
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/FNA.dll.config => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/FNA.dll.config
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/FNA3D.dll => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/FNA3D.dll
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib/libpng15.so.15 => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib/libpng15.so.15
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib/libfmodstudio.so.10 => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib/libfmodstudio.so.10
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib/libmojoshader.so => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib/libmojoshader.so
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib/libsteam_api.so => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib/libsteam_api.so
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib/libfmod_SDL.so => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib/libfmod_SDL.so
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib/libCSteamworks.so => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib/libCSteamworks.so
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib/libSDL2_image-2.0.so.0 => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib/libSDL2_image-2.0.so.0
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib/libSDL2-2.0.so.0 => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib/libSDL2-2.0.so.0
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib/libfmod.so.10 => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib/libfmod.so.10
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib64/libfmodstudio.so.10 => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib64/libfmodstudio.so.10
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib64/libFNA3D.so.0 => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib64/libFNA3D.so.0
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib64/libsteam_api.so => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib64/libsteam_api.so
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib64/libfmod_SDL.so => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib64/libfmod_SDL.so
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib64/libCSteamworks.so => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib64/libCSteamworks.so
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib64/libSDL2-2.0.so.0 => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib64/libSDL2-2.0.so.0
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/lib64/libfmod.so.10 => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib64/libfmod.so.10
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste.exe.config => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/Celeste.exe.config
+Backing up /home/dom/.local/share/Steam/steamapps/common/Celeste/gamecontrollerdb.txt => /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/gamecontrollerdb.txt
+Applying patch vanilla libraries
+Deleting system libraries
+Deleting /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Runtime.Serialization.dll
+Deleting /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Drawing.dll
+Deleting /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Configuration.dll
+Deleting /home/dom/.local/share/Steam/steamapps/common/Celeste/Mono.Posix.dll
+Deleting /home/dom/.local/share/Steam/steamapps/common/Celeste/Mono.Security.dll
+Deleting /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Xml.Linq.dll
+Deleting /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Core.dll
+Deleting /home/dom/.local/share/Steam/steamapps/common/Celeste/System.dll
+Deleting /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Data.dll
+Deleting /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Numerics.dll
+Deleting /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Xml.dll
+Deleting /home/dom/.local/share/Steam/steamapps/common/Celeste/mscorlib.dll
+Deleting /home/dom/.local/share/Steam/steamapps/common/Celeste/System.Security.dll
+Parsing Mono config file /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/Celeste.exe.config
+Parsing Mono config file /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/FNA.dll.config
+Copying native libraries from /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/lib64 -> /home/dom/.local/share/Steam/steamapps/common/Celeste/lib64-linux
+Copying native libraries from /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/lib64-linux -> /home/dom/.local/share/Steam/steamapps/common/Celeste/lib64-linux
+Copying native libraries from /home/dom/.local/share/Steam/steamapps/common/Celeste/runtimes/linux-x64/native -> /home/dom/.local/share/Steam/steamapps/common/Celeste/lib64-linux
+Copied gamecontrollerdb.txt
+Loading Mono.Cecil
+Lazily loading /home/dom/.local/share/Steam/steamapps/common/Celeste/Mono.Cecil.dll
+Loading Mono.Cecil.Mdb
+Lazily loading /home/dom/.local/share/Steam/steamapps/common/Celeste/Mono.Cecil.Mdb.dll
+Loading Mono.Cecil.Pdb
+Lazily loading /home/dom/.local/share/Steam/steamapps/common/Celeste/Mono.Cecil.Pdb.dll
+Loading MonoMod.Utils.dll
+Lazily loading /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Utils.dll
+Loading MonoMod
+Lazily loading /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.Patcher.dll
+Loading MonoMod.RuntimeDetour.dll
+Lazily loading /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.RuntimeDetour.dll
+Loading MonoMod.RuntimeDetour.HookGen
+Lazily loading /home/dom/.local/share/Steam/steamapps/common/Celeste/MonoMod.RuntimeDetour.HookGen.dll
+Loading NETCoreifier
+Lazily loading /home/dom/.local/share/Steam/steamapps/common/Celeste/NETCoreifier.dll
+Converting /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/FNA.dll to .NET Core
+Converting /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/Steamworks.NET.dll to .NET Core
+Converting /home/dom/.local/share/Steam/steamapps/common/Celeste/orig/Celeste.exe to .NET Core
+Running MonoMod for /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib/FNA.dll
+MonoMod 25.0.0.0
+[MonoMod] Reading input file into module.
+[MonoMod] [Main] Reading mods list from arguments.
+[MonoMod] [ReadMod] Loading mod dir: /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib
+[MonoMod] [ReadMod] Loading mod: /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste.Mod.mm.dll
+[MonoMod] [Main] mm.AutoPatch();
+[MonoMod] [AutoPatch] Parsing rules in loaded mods
+[MonoMod] [RulesModder] [Write] Writing modded module into output stream.
+[MonoMod] [Celeste.Mod.mm] Patching game dependency...
+[MonoMod] [AutoPatch] PrePatch pass
+[MonoMod] [AutoPatch] Patch pass
+[MonoMod] [AutoPatch] PatchRefs pass
+[MonoMod] [PostProcessor] PostProcessor pass #1
+[MonoMod] [PostProcessor] PostProcessor pass #2
+[MonoMod] [PostProcessor] PostProcessor pass #3
+[MonoMod] [Write] Writing modded module into output file.
+[MonoMod] [Main] Done.
+Running MonoMod for /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste.exe
+MonoMod 25.0.0.0
+[MonoMod] Reading input file into module.
+[MonoMod] [Main] Reading mods list from arguments.
+[MonoMod] [ReadMod] Loading mod dir: /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib
+[MonoMod] [ReadMod] Loading mod: /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste.Mod.mm.dll
+[MonoMod] [Main] mm.AutoPatch();
+[MonoMod] [AutoPatch] Parsing rules in loaded mods
+[MonoMod] [RulesModder] [Write] Writing modded module into output stream.
+[MonoMod] [Celeste.Mod.mm] Patching game executable...
+[MonoMod] [AutoPatch] PrePatch pass
+[MonoMod] [AutoPatch] Patch pass
+[MonoMod] [AutoPatch] PatchRefs pass
+[MonoMod] [PostProcessor] PostProcessor pass #1
+[MonoMod] [PostProcessor] PostProcessor pass #2
+[MonoMod] [PostProcessor] PostProcessor pass #3
+[MonoMod] [PostProcessor] PostProcessor pass #4
+[MonoMod] [Write] Writing modded module into output file.
+[MonoMod] [Main] Done.
+Running MonoMod.RuntimeDetour.HookGen for /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste.exe
+MonoMod.RuntimeDetour.HookGen 24.0.0.0
+using MonoMod 25.0.0.0
+using MonoMod.RuntimeDetour 25.0.2.0
+[MonoMod] Reading input file into module.
+[MonoMod] [HookGen] Starting HookGenerator
+[MonoMod] [HookGen] Done.
+Running MonoMod for /home/dom/.local/share/Steam/steamapps/common/Celeste/MMHOOK_Celeste.dll
+MonoMod 25.0.0.0
+[MonoMod] Reading input file into module.
+[MonoMod] [Main] Reading mods list from arguments.
+[MonoMod] [ReadMod] Loading mod dir: /home/dom/.local/share/Steam/steamapps/common/Celeste/everest-lib
+[MonoMod] [ReadMod] Loading mod: /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste.Mod.mm.dll
+[MonoMod] [Main] mm.AutoPatch();
+[MonoMod] [AutoPatch] Parsing rules in loaded mods
+[MonoMod] [RulesModder] [Write] Writing modded module into output stream.
+[MonoMod] [Celeste.Mod.mm] Patching game dependency...
+[MonoMod] [AutoPatch] PrePatch pass
+[MonoMod] [AutoPatch] Patch pass
+[MonoMod] [AutoPatch] PatchRefs pass
+[MonoMod] [PostProcessor] PostProcessor pass #1
+[MonoMod] [PostProcessor] PostProcessor pass #2
+[MonoMod] [PostProcessor] PostProcessor pass #3
+[MonoMod] [Write] Writing modded module into output file.
+[MonoMod] [Main] Done.
+Creating .NET runtime configuration files for /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste.dll
+Binding Linux apphost /home/dom/.local/share/Steam/steamapps/common/Celeste/Celeste
+Combining Documentation
+
+
+MiniInstaller finished
+[sharp] Executing getversionstring
+[sharp] Executing getversionstring
+[sharp] Executing installmod
+[sharp] New CmdTask: (installMod)(thread#185>sharp.lua:424<scenes/installer.lua:371)#1
+Downloading mod from https://gamebanana.com/dl/1247390
+Downloading 1247390
+
+Downloaded 29213443 bytes in 1.61 seconds.
+Parsing everest.yaml
+Moving mod to Glyph.zip
+Successfully installed Glyph

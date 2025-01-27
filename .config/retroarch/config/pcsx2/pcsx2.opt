@@ -1,0 +1,3 @@
+pcsx2_fastboot = "enabled"
+pcsx2_renderer = "Auto"
+pcsx2_upscale_multiplier = "Native PS2"

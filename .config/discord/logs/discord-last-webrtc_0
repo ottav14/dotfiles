@@ -1,0 +1,687 @@
+[2024-11-30 18:27:05.135] [13408] (engine.cpp:506): Created native Engine, time: Sat Nov 30 18:27:05 2024 EST, logPath: /home/dom/.config/discord/logs/, logLevel: 2
+[2024-11-30 18:27:05.135] [13408] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
+[2024-11-30 18:27:05.135] [13408] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
+[2024-11-30 18:27:05.135] [13408] (audio_processing_impl.cc:695): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2024-11-30 18:27:05.135] [13408] (audio_processing_impl.cc:708): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2024-11-30 18:27:05.135] [13408] (audio_processing_impl.cc:911): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2024-11-30 18:27:05.135] [13408] (audio_device_buffer.cc:65): AudioDeviceBuffer::ctor
+[2024-11-30 18:27:05.135] [13408] (audio_device_impl.cc:143): current platform is Linux
+[2024-11-30 18:27:05.135] [13408] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2024-11-30 18:27:05.135] [13408] (audio_device_impl.cc:991): PlatformAudioLayer
+[2024-11-30 18:27:05.135] [13408] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2024-11-30 18:27:05.135] [13408] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2024-11-30 18:27:05.135] [13408] (audio_device_impl.cc:344): AttachAudioBuffer
+[2024-11-30 18:27:05.135] [13408] (audio_device_buffer.cc:182): SetRecordingSampleRate(0)
+[2024-11-30 18:27:05.135] [13408] (audio_device_buffer.cc:188): SetPlayoutSampleRate(0)
+[2024-11-30 18:27:05.135] [13408] (audio_device_buffer.cc:202): SetRecordingChannels(0)
+[2024-11-30 18:27:05.135] [13408] (audio_device_buffer.cc:208): SetPlayoutChannels(0)
+[2024-11-30 18:27:05.135] [13408] (audio_device_impl.cc:354): ActiveAudioLayer
+[2024-11-30 18:27:05.135] [13408] (audio_device_buffer.cc:65): AudioDeviceBuffer::ctor
+[2024-11-30 18:27:05.135] [13408] (audio_device_impl.cc:143): current platform is Linux
+[2024-11-30 18:27:05.135] [13408] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2024-11-30 18:27:05.135] [13408] (audio_device_impl.cc:991): PlatformAudioLayer
+[2024-11-30 18:27:05.135] [13408] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2024-11-30 18:27:05.135] [13408] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2024-11-30 18:27:05.135] [13408] (audio_device_impl.cc:344): AttachAudioBuffer
+[2024-11-30 18:27:05.135] [13408] (audio_device_buffer.cc:182): SetRecordingSampleRate(0)
+[2024-11-30 18:27:05.135] [13408] (audio_device_buffer.cc:188): SetPlayoutSampleRate(0)
+[2024-11-30 18:27:05.135] [13408] (audio_device_buffer.cc:202): SetRecordingChannels(0)
+[2024-11-30 18:27:05.135] [13408] (audio_device_buffer.cc:208): SetPlayoutChannels(0)
+[2024-11-30 18:27:05.135] [13408] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
+[2024-11-30 18:27:05.135] [13408] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
+[2024-11-30 18:27:05.135] [13408] (audio_processing_impl.cc:695): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2024-11-30 18:27:05.135] [13408] (audio_processing_impl.cc:708): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2024-11-30 18:27:05.135] [13408] (audio_engine.cpp:473): Creating audio engine: standard
+[2024-11-30 18:27:05.135] [13408] (audio_device_impl.cc:364): Init
+[2024-11-30 18:27:05.208] [13408] (audio_device_impl.cc:364): Init
+[2024-11-30 18:27:05.212] [13408] (audio_coding.cpp:156): Using software Opus decoder
+[2024-11-30 18:27:05.212] [13408] (audio_coding.cpp:173): Using software Opus encoder
+[2024-11-30 18:27:05.212] [13408] (audio_device_impl.cc:895): RegisterAudioCallback
+[2024-11-30 18:27:05.212] [13408] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
+[2024-11-30 18:27:05.212] [13408] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-11-30 18:27:05.212] [13408] (audio_device_impl.cc:895): RegisterAudioCallback
+[2024-11-30 18:27:05.212] [13408] (audio_engine.cpp:182): Setting audio input device: 'default'
+[2024-11-30 18:27:05.212] [13408] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-11-30 18:27:05.212] [13408] (audio_device_buffer.cc:202): SetRecordingChannels(2)
+[2024-11-30 18:27:05.212] [13408] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-11-30 18:27:05.213] [13408] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-11-30 18:27:05.213] [13408] (audio_device_impl.cc:573): output: 1
+[2024-11-30 18:27:05.213] [13408] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-11-30 18:27:05.213] [13408] (audio_device_buffer.cc:202): SetRecordingChannels(2)
+[2024-11-30 18:27:05.213] [13408] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-11-30 18:27:05.213] [13408] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-11-30 18:27:05.213] [13408] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-11-30 18:27:05.213] [13408] (audio_engine.cpp:199): Setting audio output device: 'default'
+[2024-11-30 18:27:05.213] [13408] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-11-30 18:27:05.214] [13408] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-11-30 18:27:05.214] [13408] (audio_device_impl.cc:619): output: 1
+[2024-11-30 18:27:05.214] [13408] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-11-30 18:27:05.214] [13408] (audio_device_buffer.cc:208): SetPlayoutChannels(2)
+[2024-11-30 18:27:05.214] [13408] (audio_device_impl.cc:911): BuiltInAECIsAvailable
+[2024-11-30 18:27:05.214] [13408] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2024-11-30 18:27:05.214] [13408] (audio_device_impl.cc:914): output: 0
+[2024-11-30 18:27:05.214] [13408] (audio_processing_impl.cc:911): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2024-11-30 18:27:05.214] [13408] (matched_filter.cc:141): AEC3: Pre echo configuration:  threshold = 0.5, mode =  3.
+[2024-11-30 18:27:05.214] [13408] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2024-11-30 18:27:05.215] [13408] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2024-11-30 18:27:05.215] [13408] (audio_processing_impl.cc:911): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2024-11-30 18:27:05.215] [13408] (clipping_predictor.cc:358): [AGC2] Clipping prediction disabled.
+[2024-11-30 18:27:05.215] [13408] (agc_manager_direct.cc:481): [agc] analog controller enabled: yes
+[2024-11-30 18:27:05.215] [13408] (agc_manager_direct.cc:484): [agc] Min mic level: 12 (overridden: no)
+[2024-11-30 18:27:05.215] [13408] (captured_audio_processor.cpp:127): SetNoiseCancellation: 0
+[2024-11-30 18:27:05.215] [13408] (audio_processing_impl.cc:911): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2024-11-30 18:27:05.215] [13408] (field_trial.cc:164): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2024-11-30 18:27:05.223] [13408] (audio_engine.cpp:182): Setting audio input device: 'default'
+[2024-11-30 18:27:05.224] [13408] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-11-30 18:27:05.224] [13408] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-11-30 18:27:05.224] [13408] (audio_device_buffer.cc:202): SetRecordingChannels(2)
+[2024-11-30 18:27:05.224] [13408] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-11-30 18:27:05.224] [13408] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-11-30 18:27:05.226] [13408] (audio_device_impl.cc:573): output: 1
+[2024-11-30 18:27:05.226] [13408] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-11-30 18:27:05.226] [13408] (audio_device_buffer.cc:202): SetRecordingChannels(2)
+[2024-11-30 18:27:05.226] [13408] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-11-30 18:27:05.226] [13408] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-11-30 18:27:05.226] [13408] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-11-30 18:27:05.226] [13408] (audio_engine.cpp:199): Setting audio output device: 'default'
+[2024-11-30 18:27:05.226] [13408] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-11-30 18:27:05.226] [13408] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-11-30 18:27:05.226] [13408] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-11-30 18:27:05.227] [13408] (audio_device_impl.cc:619): output: 1
+[2024-11-30 18:27:05.227] [13408] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-11-30 18:27:05.227] [13408] (audio_device_buffer.cc:208): SetPlayoutChannels(2)
+[2024-11-30 18:27:05.227] [13408] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-11-30 18:27:05.227] [13408] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-11-30 18:27:05.227] [13408] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-11-30 18:27:05.227] [13408] (engine_audio_transport.cpp:547): EngineAudioTransport::SetSidechainCompression 0
+[2024-11-30 18:27:05.227] [13408] (engine_audio_transport.cpp:558): EngineAudioTransport::ApplySidechainCompressionSettings  threshold: -32.5 ratio: 0.433333
+[2024-11-30 18:27:05.227] [13408] (engine.cpp:220): *** OnDevicesChanged:
+[2024-11-30 18:27:05.227] [13408] (engine.cpp:221): * audioInput:
+[2024-11-30 18:27:05.227] [13408] (engine.cpp:226): * audioOutput:
+[2024-11-30 18:27:05.227] [13408] (audio_engine.cpp:182): Setting audio input device: 'default'
+[2024-11-30 18:27:05.227] [13408] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-11-30 18:27:05.227] [13408] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-11-30 18:27:05.227] [13408] (audio_device_buffer.cc:202): SetRecordingChannels(2)
+[2024-11-30 18:27:05.227] [13408] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-11-30 18:27:05.228] [13408] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-11-30 18:27:05.228] [13408] (audio_device_impl.cc:573): output: 1
+[2024-11-30 18:27:05.228] [13408] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-11-30 18:27:05.228] [13408] (audio_device_buffer.cc:202): SetRecordingChannels(2)
+[2024-11-30 18:27:05.228] [13408] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-11-30 18:27:05.228] [13408] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-11-30 18:27:05.228] [13408] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-11-30 18:27:05.228] [13408] (audio_engine.cpp:199): Setting audio output device: 'default'
+[2024-11-30 18:27:05.228] [13408] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-11-30 18:27:05.228] [13408] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-11-30 18:27:05.229] [13408] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-11-30 18:27:05.229] [13408] (audio_device_impl.cc:619): output: 1
+[2024-11-30 18:27:05.229] [13408] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-11-30 18:27:05.229] [13408] (audio_device_buffer.cc:208): SetPlayoutChannels(2)
+[2024-11-30 18:27:05.229] [13408] (engine.cpp:220): *** OnDevicesChanged:
+[2024-11-30 18:27:05.229] [13408] (engine.cpp:221): * audioInput:
+[2024-11-30 18:27:05.229] [13408] (engine.cpp:224): - default: Comet Lake PCH-LP cAVS Digital Microphone ()
+[2024-11-30 18:27:05.229] [13408] (engine.cpp:224): - Comet Lake PCH-LP cAVS Headphones Stereo Microphone ()
+[2024-11-30 18:27:05.229] [13408] (engine.cpp:224): - Comet Lake PCH-LP cAVS Digital Microphone ()
+[2024-11-30 18:27:05.229] [13408] (engine.cpp:226): * audioOutput:
+[2024-11-30 18:27:05.229] [13408] (engine.cpp:229): - default: Comet Lake PCH-LP cAVS Speaker ()
+[2024-11-30 18:27:05.229] [13408] (engine.cpp:229): - Comet Lake PCH-LP cAVS HDMI / DisplayPort 3 Output ()
+[2024-11-30 18:27:05.229] [13408] (engine.cpp:229): - Comet Lake PCH-LP cAVS HDMI / DisplayPort 2 Output ()
+[2024-11-30 18:27:05.229] [13408] (engine.cpp:229): - Comet Lake PCH-LP cAVS HDMI / DisplayPort 1 Output ()
+[2024-11-30 18:27:05.229] [13408] (engine.cpp:229): - Comet Lake PCH-LP cAVS Speaker ()
+[2024-11-30 18:27:05.528] [13408] (audio_engine.cpp:182): Setting audio input device: 'default'
+[2024-11-30 18:27:05.528] [13408] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-11-30 18:27:05.528] [13408] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-11-30 18:27:05.528] [13408] (audio_device_buffer.cc:202): SetRecordingChannels(2)
+[2024-11-30 18:27:05.528] [13408] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-11-30 18:27:05.528] [13408] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-11-30 18:27:05.529] [13408] (audio_device_impl.cc:573): output: 1
+[2024-11-30 18:27:05.529] [13408] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-11-30 18:27:05.529] [13408] (audio_device_buffer.cc:202): SetRecordingChannels(2)
+[2024-11-30 18:27:05.529] [13408] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-11-30 18:27:05.529] [13408] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-11-30 18:27:05.529] [13408] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-11-30 18:27:05.529] [13408] (audio_engine.cpp:199): Setting audio output device: 'default'
+[2024-11-30 18:27:05.529] [13408] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-11-30 18:27:05.529] [13408] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-11-30 18:27:05.530] [13408] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-11-30 18:27:05.531] [13408] (audio_device_impl.cc:619): output: 1
+[2024-11-30 18:27:05.531] [13408] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-11-30 18:27:05.531] [13408] (audio_device_buffer.cc:208): SetPlayoutChannels(2)
+[2024-11-30 18:27:05.531] [13408] (audio_engine.cpp:182): Setting audio input device: 'default'
+[2024-11-30 18:27:05.531] [13408] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-11-30 18:27:05.531] [13408] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-11-30 18:27:05.531] [13408] (audio_device_buffer.cc:202): SetRecordingChannels(2)
+[2024-11-30 18:27:05.531] [13408] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-11-30 18:27:05.531] [13408] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-11-30 18:27:05.532] [13408] (audio_device_impl.cc:573): output: 1
+[2024-11-30 18:27:05.532] [13408] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-11-30 18:27:05.532] [13408] (audio_device_buffer.cc:202): SetRecordingChannels(2)
+[2024-11-30 18:27:05.532] [13408] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-11-30 18:27:05.532] [13408] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-11-30 18:27:05.532] [13408] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-11-30 18:27:05.532] [13408] (audio_engine.cpp:199): Setting audio output device: 'default'
+[2024-11-30 18:27:05.532] [13408] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-11-30 18:27:05.532] [13408] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-11-30 18:27:05.532] [13408] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-11-30 18:27:05.533] [13408] (audio_device_impl.cc:619): output: 1
+[2024-11-30 18:27:05.533] [13408] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-11-30 18:27:05.533] [13408] (audio_device_buffer.cc:208): SetPlayoutChannels(2)
+[2024-11-30 18:27:25.904] [13383] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 301 ms
+[2024-11-30 18:27:26.219] [13383] JS console: [GatewaySocket] [READY] took 616ms, as fe9cc9cddd543f2de24839d381c96d05
+[2024-11-30 18:27:26.253] [13408] (engine_audio_transport.cpp:547): EngineAudioTransport::SetSidechainCompression 1
+[2024-11-30 18:27:26.320] [13383] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 717ms
+[2024-11-30 18:27:43.945] [13408] (engine.cpp:1703): Setting video input device: 'usb-0000:00:14.0-8'
+[2024-11-30 18:27:43.945] [13408] (media_filter_manager.cpp:182): Updating video output stream 
+[2024-11-30 18:27:43.945] [13408] (media_filter_manager.cpp:205): Updating direct video output stream 
+[2024-11-30 18:27:43.945] [13408] (video_input_device.cpp:59): Creating capturer: Integrated Camera: Integrated C: usb-0000:00:14.0-8
+[2024-11-30 18:27:43.945] [13408] (video_adapter.cc:342): Setting output_format_request_: [ 1280x720 max_pixel_count: 921600 max_fps: 30 ]
+[2024-11-30 18:27:43.945] [13408] (video_adapter.cc:342): Setting output_format_request_: [ 1280x720 max_pixel_count: 921600 max_fps: 30 ]
+[2024-11-30 18:27:43.945] [13408] (video_source.cpp:33): Set output format for source aligned adapter to 1280 x 720, framerate: 30 [fps]
+[2024-11-30 18:27:43.945] [13408] (video_source.cpp:39): Video source reconfigure to 1280 x 720, framerate: 30 [fps]
+[2024-11-30 18:27:43.945] [13408] (device_info_v4l2.cc:165): CreateCapabilityMap called for device usb-0000:00:14.0-8
+[2024-11-30 18:27:44.003] [13408] (device_info_v4l2.cc:334): CreateCapabilityMap 60
+[2024-11-30 18:27:44.003] [13408] (device_info_v4l2.cc:220): CreateCapabilityMap 60
+[2024-11-30 18:27:44.003] [13408] (video_capture_v4l2.cc:176): Video Capture enumerats supported image formats:
+[2024-11-30 18:27:44.003] [13408] (video_capture_v4l2.cc:178):   { pixelformat = MJPG, description = '9a9f9eac' }
+[2024-11-30 18:27:44.003] [13408] (video_capture_v4l2.cc:178):   { pixelformat = YUYV, description = '9a9f9eac' }
+[2024-11-30 18:27:44.003] [13408] (video_capture_v4l2.cc:194): We prefer format MJPG
+[2024-11-30 18:27:44.005] [13408] (video_capture_module_source.cpp:101): Capturer running at 1280x720@30 videoType: 11
+[2024-11-30 18:27:44.005] [13408] (video_source.cpp:63): Try to update sink want
+[2024-11-30 18:27:44.005] [13408] (video_adapter.cc:360): These should always be created by VideoBroadcaster!
+[2024-11-30 18:27:44.005] [13408] (video_adapter.cc:360): These should always be created by VideoBroadcaster!
+[2024-11-30 18:27:44.005] [13408] (media_filter_manager.cpp:166): Updating video input device
+[2024-11-30 18:27:44.173] [13781] (frame_activity_detector.cpp:54): First video frame entropy: 3.94383
+[2024-11-30 18:27:44.173] [13408] (engine.cpp:2060): Video input device: Integrated Camera: Integrated C, time to first frame: 168 [ms]
+[2024-11-30 18:27:44.190] [13383] JS console: [RTCControlSocket(default)] [CONNECT] wss://newark1464.discord.media/
+[2024-11-30 18:27:44.191] [13383] JS console: [RTCConnection(1241629009880547340, default)] Connecting to RTC server wss://newark1464.discord.media/, rtc-connection-id: e4fcb0f8-16b2-4c77-8b5e-f77eab714eb3
+[2024-11-30 18:27:44.191] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: AWAITING_ENDPOINT => CONNECTING
+[2024-11-30 18:27:44.557] [13383] JS console: [RTCConnection(1241629009880547340, default)] Connected to RTC server.
+[2024-11-30 18:27:44.564] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: CONNECTING => AUTHENTICATING
+[2024-11-30 18:27:44.566] [13383] JS console: [RTCControlSocket(default)] [CONNECTED] wss://newark1464.discord.media/ in 376 ms
+[2024-11-30 18:27:44.615] [13383] JS console: [RTCControlSocket(default)] [HELLO] heartbeat interval: 13750, version: 8, took 425 ms
+[2024-11-30 18:27:44.616] [13383] JS console: [RTCControlSocket(default)] Starting heartbeat with interval: 13750
+[2024-11-30 18:27:44.671] [13383] JS console: [RTCControlSocket(default)] [READY] took 481 ms
+[2024-11-30 18:27:44.672] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: AUTHENTICATING => RTC_CONNECTING
+[2024-11-30 18:27:44.683] [13383] JS console: [Connection(default)] Creating connection to 66.22.212.58:50001 with audio ssrc: 256329
+[2024-11-30 18:27:44.684] [13408] (voice_connection.cpp:596): Create connection to 66.22.212.58:50001 with ssrc: 256329
+[2024-11-30 18:27:44.684] [13408] (captured_audio_processor.cpp:134): SetNoiseCancellationOverride: none
+[2024-11-30 18:27:44.684] [13408] (audio_processing_impl.cc:911): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2024-11-30 18:27:44.685] [13408] (audio_coding.cpp:156): Using software Opus decoder
+[2024-11-30 18:27:44.685] [13408] (audio_coding.cpp:173): Using software Opus encoder
+[2024-11-30 18:27:44.685] [13408] (bitrate_prober.cc:47): Bandwidth probing enabled, set to inactive
+[2024-11-30 18:27:44.685] [13408] (cpu_info.cc:53): Available number of cores: 8
+[2024-11-30 18:27:44.685] [13408] (remote_estimator_proxy.cc:68): Maximum interval between transport feedback RTCP messages: 250 ms
+[2024-11-30 18:27:44.685] [13408] (aimd_rate_control.cc:97): Using aimd rate control with back off factor 0.85
+[2024-11-30 18:27:44.685] [13408] (remote_bitrate_estimator_single_stream.cc:64): RemoteBitrateEstimatorSingleStream: Instantiating.
+[2024-11-30 18:27:44.685] [13408] (pacing_controller.cc:110): PacedSender paused.
+[2024-11-30 18:27:44.685] [13408] (audio_device_impl.cc:439): SpeakerIsInitialized
+[2024-11-30 18:27:44.685] [13408] (audio_device_impl.cc:442): output: 0
+[2024-11-30 18:27:44.685] [13408] (audio_device_impl.cc:397): InitSpeaker
+[2024-11-30 18:27:44.685] [13408] (audio_device_impl.cc:857): Playing
+[2024-11-30 18:27:44.685] [13408] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-11-30 18:27:44.685] [13408] (audio_device_impl.cc:794): InitPlayout
+[2024-11-30 18:27:44.685] [13408] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-11-30 18:27:44.685] [13408] (audio_device_buffer.cc:188): SetPlayoutSampleRate(48000)
+[2024-11-30 18:27:44.685] [13408] (audio_device_buffer.cc:208): SetPlayoutChannels(2)
+[2024-11-30 18:27:44.685] [13408] (audio_device_impl.cc:800): output: 0
+[2024-11-30 18:27:44.685] [13408] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-11-30 18:27:44.685] [13408] (audio_device_impl.cc:832): StartPlayout
+[2024-11-30 18:27:44.685] [13408] (audio_device_impl.cc:857): Playing
+[2024-11-30 18:27:44.688] [13383] JS console: [Connection(default)] updateVideoQuality: {
+    "remoteSinkWantsMaxFramerate": 30
+}
+[2024-11-30 18:27:44.694] [13383] JS console: [Connection(default)] updateVideoQuality: {
+    "encodingVideoWidth": 1280,
+    "encodingVideoHeight": 720,
+    "encodingVideoFrameRate": 30,
+    "captureVideoFrameRate": 30,
+    "remoteSinkWantsMaxFramerate": 30,
+    "remoteSinkWantsPixelCount": 921600,
+    "encodingVideoBitRate": 2500000,
+    "encodingVideoMinBitRate": 150000,
+    "encodingVideoMaxBitRate": 2500000,
+    "streamParameters": [
+        {
+            "type": "video",
+            "active": false,
+            "rid": "50",
+            "ssrc": 256330,
+            "rtxSsrc": 256331,
+            "quality": 50,
+            "maxBitrate": 2500000,
+            "maxFrameRate": 30,
+            "maxResolution": {
+                "type": "fixed",
+                "width": 1280,
+                "height": 720
+            },
+            "minBitrate": 150000,
+            "targetBitrate": 0,
+            "maxPixelCount": 921600
+        },
+        {
+            "type": "video",
+            "active": false,
+            "rid": "100",
+            "ssrc": 256332,
+            "rtxSsrc": 256333,
+            "quality": 100,
+            "maxBitrate": 2500000,
+            "maxFrameRate": 30,
+            "maxResolution": {
+                "type": "fixed",
+                "width": 1280,
+                "height": 720
+            },
+            "minBitrate": 150000,
+            "targetBitrate": 0,
+            "maxPixelCount": 921600
+        }
+    ]
+}
+[2024-11-30 18:27:44.699] [13383] JS console: [Connection(default)] updateVideoQuality: {
+    "remoteSinkWantsPixelCount": 921600,
+    "remoteSinkWantsMaxFramerate": 30,
+    "encodingVideoMinBitRate": 150000,
+    "encodingVideoMaxBitRate": 2500000,
+    "encodingVideoBitRate": 2500000,
+    "streamParameters": [
+        {
+            "type": "video",
+            "active": false,
+            "rid": "50",
+            "ssrc": 256330,
+            "rtxSsrc": 256331,
+            "quality": 50,
+            "maxBitrate": 2500000,
+            "maxFrameRate": 30,
+            "maxResolution": {
+                "type": "fixed",
+                "width": 1280,
+                "height": 720
+            },
+            "minBitrate": 150000,
+            "targetBitrate": 0,
+            "maxPixelCount": 921600
+        },
+        {
+            "type": "video",
+            "active": false,
+            "rid": "100",
+            "ssrc": 256332,
+            "rtxSsrc": 256333,
+            "quality": 100,
+            "maxBitrate": 2500000,
+            "maxFrameRate": 30,
+            "maxResolution": {
+                "type": "fixed",
+                "width": 1280,
+                "height": 720
+            },
+            "minBitrate": 150000,
+            "targetBitrate": 0,
+            "maxPixelCount": 921600
+        }
+    ]
+}
+[2024-11-30 18:27:54.988] [13383] JS console: [Connection(default)] updateVideoQuality: {
+    "remoteSinkWantsMaxFramerate": 30
+}
+[2024-11-30 18:27:56.569] [13383] JS console: [Connection(default)] updateVideoQuality: {
+    "remoteSinkWantsMaxFramerate": 30
+}
+[2024-11-30 18:27:58.368] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 3
+[2024-11-30 18:27:58.404] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:28:05.962] [13383] JS console: [RTCConnection(1241629009880547340, default)] Destroy RTCConnection
+[2024-11-30 18:28:05.964] [13383] JS console: [RTCControlSocket(default)] CLOSE
+[2024-11-30 18:28:05.965] [13383] JS console: [RTCConnection(1241629009880547340, default)] Disconnected from RTC server, clean: true, code: 1000, reason: Force Close, state: RTC_CONNECTING
+[2024-11-30 18:28:05.970] [13383] JS console: [Connection(default)] Connection state change: CONNECTING => DISCONNECTED
+[2024-11-30 18:28:05.971] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC media connection state change: RTC_CONNECTING => DISCONNECTED
+[2024-11-30 18:28:05.971] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: RTC_CONNECTING => RTC_DISCONNECTED
+[2024-11-30 18:28:05.971] [13383] JS console: [RTCControlSocket(default)] CLOSE
+[2024-11-30 18:28:05.971] [13383] JS console: [RTCConnection(1241629009880547340, default)] Disconnected from RTC server, clean: true, code: 1000, reason: Force Close, state: RTC_DISCONNECTED
+[2024-11-30 18:28:05.972] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: RTC_DISCONNECTED => DISCONNECTED
+[2024-11-30 18:28:05.972] [13383] JS console: [RTCControlSocket(default)] [CONNECT] wss://newark1464.discord.media/
+[2024-11-30 18:28:05.973] [13383] JS console: [RTCConnection(1241629009880547340, default)] Connecting to RTC server wss://newark1464.discord.media/, rtc-connection-id: e4fcb0f8-16b2-4c77-8b5e-f77eab714eb3
+[2024-11-30 18:28:05.973] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: DISCONNECTED => CONNECTING
+[2024-11-30 18:28:05.973] [13383] JS console: [Connection(default)] Connection state change: DISCONNECTED => DISCONNECTED
+[2024-11-30 18:28:05.973] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC media connection state change: CONNECTING => DISCONNECTED
+[2024-11-30 18:28:05.973] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: CONNECTING => RTC_DISCONNECTED
+[2024-11-30 18:28:05.976] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: RTC_DISCONNECTED => DISCONNECTED
+[2024-11-30 18:28:06.160] [13383] JS console: [RTCControlSocket(default)] [CONNECTED] wss://newark1464.discord.media/ in 188 ms
+[2024-11-30 18:28:06.163] [13383] JS console: [RTCControlSocket(default)] [HELLO] heartbeat interval: 13750, version: 8, took 190 ms
+[2024-11-30 18:28:06.163] [13383] JS console: [RTCControlSocket(default)] Starting heartbeat with interval: 13750
+[2024-11-30 18:28:08.291] [13383] JS console: [RTCControlSocket(default)] [CONNECT] wss://newark1464.discord.media/
+[2024-11-30 18:28:08.292] [13383] JS console: [RTCConnection(1241629009880547340, default)] Connecting to RTC server wss://newark1464.discord.media/, rtc-connection-id: 6c0d7bd8-1ddd-4750-918a-04f60e225325
+[2024-11-30 18:28:08.292] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: AWAITING_ENDPOINT => CONNECTING
+[2024-11-30 18:28:08.507] [13383] JS console: [RTCConnection(1241629009880547340, default)] Connected to RTC server.
+[2024-11-30 18:28:08.507] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: CONNECTING => AUTHENTICATING
+[2024-11-30 18:28:08.510] [13383] JS console: [RTCControlSocket(default)] [CONNECTED] wss://newark1464.discord.media/ in 219 ms
+[2024-11-30 18:28:08.701] [13383] JS console: [RTCControlSocket(default)] [HELLO] heartbeat interval: 13750, version: 8, took 410 ms
+[2024-11-30 18:28:08.702] [13383] JS console: [RTCControlSocket(default)] Starting heartbeat with interval: 13750
+[2024-11-30 18:28:08.784] [13383] JS console: [RTCControlSocket(default)] [READY] took 492 ms
+[2024-11-30 18:28:08.784] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: AUTHENTICATING => RTC_CONNECTING
+[2024-11-30 18:28:08.788] [13383] JS console: [Connection(default)] Creating connection to 66.22.212.58:50001 with audio ssrc: 256350
+[2024-11-30 18:28:08.796] [13383] JS console: [Connection(default)] updateVideoQuality: {
+    "remoteSinkWantsMaxFramerate": 30
+}
+[2024-11-30 18:28:08.799] [13383] JS console: [Connection(default)] updateVideoQuality: {
+    "encodingVideoWidth": 1280,
+    "encodingVideoHeight": 720,
+    "encodingVideoFrameRate": 30,
+    "captureVideoFrameRate": 30,
+    "remoteSinkWantsMaxFramerate": 30,
+    "remoteSinkWantsPixelCount": 921600,
+    "encodingVideoBitRate": 2500000,
+    "encodingVideoMinBitRate": 150000,
+    "encodingVideoMaxBitRate": 2500000,
+    "streamParameters": [
+        {
+            "type": "video",
+            "active": false,
+            "rid": "50",
+            "ssrc": 256351,
+            "rtxSsrc": 256352,
+            "quality": 50,
+            "maxBitrate": 2500000,
+            "maxFrameRate": 30,
+            "maxResolution": {
+                "type": "fixed",
+                "width": 1280,
+                "height": 720
+            },
+            "minBitrate": 150000,
+            "targetBitrate": 0,
+            "maxPixelCount": 921600
+        },
+        {
+            "type": "video",
+            "active": false,
+            "rid": "100",
+            "ssrc": 256353,
+            "rtxSsrc": 256354,
+            "quality": 100,
+            "maxBitrate": 2500000,
+            "maxFrameRate": 30,
+            "maxResolution": {
+                "type": "fixed",
+                "width": 1280,
+                "height": 720
+            },
+            "minBitrate": 150000,
+            "targetBitrate": 0,
+            "maxPixelCount": 921600
+        }
+    ]
+}
+[2024-11-30 18:28:08.800] [13383] JS console: [Connection(default)] updateVideoQuality: {
+    "remoteSinkWantsPixelCount": 921600,
+    "remoteSinkWantsMaxFramerate": 30,
+    "encodingVideoMinBitRate": 150000,
+    "encodingVideoMaxBitRate": 2500000,
+    "encodingVideoBitRate": 2500000,
+    "streamParameters": [
+        {
+            "type": "video",
+            "active": false,
+            "rid": "50",
+            "ssrc": 256351,
+            "rtxSsrc": 256352,
+            "quality": 50,
+            "maxBitrate": 2500000,
+            "maxFrameRate": 30,
+            "maxResolution": {
+                "type": "fixed",
+                "width": 1280,
+                "height": 720
+            },
+            "minBitrate": 150000,
+            "targetBitrate": 0,
+            "maxPixelCount": 921600
+        },
+        {
+            "type": "video",
+            "active": false,
+            "rid": "100",
+            "ssrc": 256353,
+            "rtxSsrc": 256354,
+            "quality": 100,
+            "maxBitrate": 2500000,
+            "maxFrameRate": 30,
+            "maxResolution": {
+                "type": "fixed",
+                "width": 1280,
+                "height": 720
+            },
+            "minBitrate": 150000,
+            "targetBitrate": 0,
+            "maxPixelCount": 921600
+        }
+    ]
+}
+[2024-11-30 18:28:15.228] [13383] JS console: [Connection(default)] updateVideoQuality: {
+    "remoteSinkWantsMaxFramerate": 30
+}
+[2024-11-30 18:28:19.971] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: -1
+[2024-11-30 18:28:20.032] [13383] JS console: [RTCControlSocket(default)] [WS CLOSED] (clean: true, code: 4003, reason: Not authenticated.) retrying in 1.09 seconds.
+[2024-11-30 18:28:21.125] [13383] JS console: [RTCControlSocket(default)] [RECONNECT] wasClean=true code=4003 reason=Not authenticated.
+[2024-11-30 18:28:21.125] [13383] JS console: [RTCControlSocket(default)] [CONNECT] wss://newark1464.discord.media/
+[2024-11-30 18:28:21.260] [13383] JS console: [RTCControlSocket(default)] [DISCONNECT] (false, 4801, Cannot resume connection.)
+[2024-11-30 18:28:21.260] [13383] JS console: [RTCControlSocket(default)] [CONNECTED] wss://newark1464.discord.media/ in 135 ms
+[2024-11-30 18:28:22.452] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 3
+[2024-11-30 18:28:22.485] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:28:28.511] [13383] JS console: [RTCControlSocket(stream)] [CONNECT] wss://newark6820.discord.media/
+[2024-11-30 18:28:28.512] [13383] JS console: [RTCConnection(1312560914628612187, stream)] Connecting to RTC server wss://newark6820.discord.media/, rtc-connection-id: 8e049328-4e97-4327-8a77-c8c6a1a5a277
+[2024-11-30 18:28:28.512] [13383] JS console: [RTCConnection(1312560914628612187, stream)] RTC connection state: AWAITING_ENDPOINT => CONNECTING
+[2024-11-30 18:28:28.514] [13383] JS console: [Connection(default)] updateVideoQuality: {
+    "remoteSinkWantsMaxFramerate": 30
+}
+[2024-11-30 18:28:28.701] [13383] JS console: [RTCConnection(1312560914628612187, stream)] Connected to RTC server.
+[2024-11-30 18:28:28.702] [13383] JS console: [RTCConnection(1312560914628612187, stream)] RTC connection state: CONNECTING => AUTHENTICATING
+[2024-11-30 18:28:28.703] [13383] JS console: [RTCControlSocket(stream)] [CONNECTED] wss://newark6820.discord.media/ in 192 ms
+[2024-11-30 18:28:28.720] [13383] JS console: [RTCControlSocket(stream)] [HELLO] heartbeat interval: 13750, version: 8, took 208 ms
+[2024-11-30 18:28:28.720] [13383] JS console: [RTCControlSocket(stream)] Starting heartbeat with interval: 13750
+[2024-11-30 18:28:28.770] [13383] JS console: [RTCControlSocket(stream)] [READY] took 259 ms
+[2024-11-30 18:28:28.770] [13383] JS console: [RTCConnection(1312560914628612187, stream)] RTC connection state: AUTHENTICATING => RTC_CONNECTING
+[2024-11-30 18:28:28.777] [13383] JS console: [Connection(stream)] Creating connection to 66.22.212.85:50005 with audio ssrc: 279342
+[2024-11-30 18:28:28.780] [13383] JS console: [Connection(stream)] updateVideoQuality: {
+    "remoteSinkWantsMaxFramerate": 30
+}
+[2024-11-30 18:28:28.782] [13383] JS console: [Connection(stream)] updateVideoQuality: {
+    "remoteSinkWantsPixelCount": 921600,
+    "remoteSinkWantsMaxFramerate": 30,
+    "encodingVideoMinBitRate": 500000,
+    "encodingVideoMaxBitRate": 3500000,
+    "encodingVideoBitRate": 600000,
+    "streamParameters": [
+        {
+            "type": "video",
+            "active": false,
+            "rid": "100",
+            "ssrc": 279343,
+            "rtxSsrc": 279344,
+            "quality": 100,
+            "maxBitrate": 3500000,
+            "maxFrameRate": 30,
+            "maxResolution": {
+                "type": "fixed",
+                "width": 1280,
+                "height": 720
+            },
+            "minBitrate": 500000,
+            "targetBitrate": 600000,
+            "maxPixelCount": 921600
+        }
+    ]
+}
+[2024-11-30 18:28:28.807] [13383] JS console: [Connection(stream)] Ignoring attempt to recreate user 1236508257594638421 with 0 audio SSRC
+[2024-11-30 18:28:36.203] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 3
+[2024-11-30 18:28:36.236] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:28:42.470] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 5
+[2024-11-30 18:28:42.504] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:28:49.952] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 3
+[2024-11-30 18:28:49.981] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:28:56.221] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 5
+[2024-11-30 18:28:56.250] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:29:03.704] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 3
+[2024-11-30 18:29:03.734] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:29:09.971] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 5
+[2024-11-30 18:29:10.001] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:29:17.454] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 3
+[2024-11-30 18:29:17.488] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:29:23.721] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 5
+[2024-11-30 18:29:23.750] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:29:31.203] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 3
+[2024-11-30 18:29:31.231] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:29:37.471] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 5
+[2024-11-30 18:29:37.503] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:29:44.954] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 3
+[2024-11-30 18:29:44.995] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:29:51.222] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 5
+[2024-11-30 18:29:51.255] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:29:58.703] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 3
+[2024-11-30 18:29:58.808] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:30:04.971] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 6
+[2024-11-30 18:30:05.003] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:30:12.453] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:30:12.483] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:30:18.720] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:30:18.748] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:30:26.203] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:30:26.238] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:30:32.471] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:30:32.508] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:30:39.953] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:30:39.983] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:30:46.221] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:30:46.251] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:30:53.703] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:30:53.745] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:30:59.972] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:31:00.011] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:31:07.453] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:31:07.482] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:31:13.721] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:31:13.753] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:31:21.202] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:31:21.233] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:31:27.470] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:31:27.505] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:31:34.953] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:31:34.983] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:31:41.221] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:31:41.254] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:31:48.703] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:31:48.733] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:31:54.970] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:31:55.006] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:32:02.454] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:32:02.487] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:32:08.722] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:32:08.754] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:32:16.203] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:32:16.238] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:32:22.471] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:32:22.505] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:32:29.953] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:32:29.989] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:32:36.220] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:32:36.254] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:32:43.703] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:32:43.732] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:32:49.970] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:32:50.001] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:32:57.453] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:32:57.487] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:33:03.720] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:33:03.749] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:33:11.203] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:33:11.238] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:33:17.471] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:33:17.503] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:33:24.953] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:33:24.981] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:33:31.220] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:33:31.253] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:33:38.703] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:33:38.738] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:33:44.970] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:33:45.014] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:33:52.453] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 8
+[2024-11-30 18:33:52.486] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:33:58.721] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:33:58.784] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:34:06.204] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:34:06.271] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:34:12.470] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 10
+[2024-11-30 18:34:12.517] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:34:19.954] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:34:19.986] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:34:26.220] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 10
+[2024-11-30 18:34:26.249] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:34:33.703] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:34:33.742] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:34:39.970] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 10
+[2024-11-30 18:34:40.011] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:34:47.452] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:34:47.481] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:34:53.721] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 10
+[2024-11-30 18:34:53.752] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:35:01.203] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:35:01.240] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:35:07.471] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 10
+[2024-11-30 18:35:07.503] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:35:14.952] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:35:14.983] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:35:21.221] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 10
+[2024-11-30 18:35:21.258] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:35:28.703] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:35:28.734] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:35:34.971] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 10
+[2024-11-30 18:35:35.033] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:35:42.453] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:35:42.487] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:35:48.721] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 10
+[2024-11-30 18:35:48.754] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:35:56.204] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:35:56.239] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:36:02.470] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 10
+[2024-11-30 18:36:02.505] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:36:09.952] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:36:10.015] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:36:16.220] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 10
+[2024-11-30 18:36:16.248] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:36:23.703] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:36:23.734] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:36:29.971] [13383] JS console: [RTCControlSocket(stream)] Sending heartbeat with last received sequence number: 10
+[2024-11-30 18:36:30.003] [13383] JS console: [RTCControlSocket(stream)] Heartbeat ACK received
+[2024-11-30 18:36:37.454] [13383] JS console: [RTCControlSocket(default)] Sending heartbeat with last received sequence number: 9
+[2024-11-30 18:36:37.492] [13383] JS console: [RTCControlSocket(default)] Heartbeat ACK received
+[2024-11-30 18:36:38.540] [13383] JS console: [RTCConnection(1241629009880547340, default)] Destroy RTCConnection
+[2024-11-30 18:36:38.545] [13383] JS console: [RTCControlSocket(default)] CLOSE
+[2024-11-30 18:36:38.550] [13383] JS console: [RTCConnection(1241629009880547340, default)] Disconnected from RTC server, clean: true, code: 1000, reason: Force Close, state: RTC_CONNECTING
+[2024-11-30 18:36:38.571] [13383] JS console: [Connection(default)] Connection state change: CONNECTING => DISCONNECTED
+[2024-11-30 18:36:38.574] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC media connection state change: RTC_CONNECTING => DISCONNECTED
+[2024-11-30 18:36:38.575] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: RTC_CONNECTING => RTC_DISCONNECTED
+[2024-11-30 18:36:38.578] [13383] JS console: [RTCControlSocket(default)] CLOSE
+[2024-11-30 18:36:38.581] [13383] JS console: [RTCConnection(1241629009880547340, default)] Disconnected from RTC server, clean: true, code: 1000, reason: Force Close, state: RTC_DISCONNECTED
+[2024-11-30 18:36:38.585] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: RTC_DISCONNECTED => DISCONNECTED
+[2024-11-30 18:36:38.590] [13383] JS console: [RTCControlSocket(default)] [CONNECT] wss://newark1464.discord.media/
+[2024-11-30 18:36:38.593] [13383] JS console: [RTCConnection(1241629009880547340, default)] Connecting to RTC server wss://newark1464.discord.media/, rtc-connection-id: 6c0d7bd8-1ddd-4750-918a-04f60e225325
+[2024-11-30 18:36:38.593] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: DISCONNECTED => CONNECTING
+[2024-11-30 18:36:38.593] [13383] JS console: [Connection(default)] Connection state change: DISCONNECTED => DISCONNECTED
+[2024-11-30 18:36:38.594] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC media connection state change: CONNECTING => DISCONNECTED
+[2024-11-30 18:36:38.594] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: CONNECTING => RTC_DISCONNECTED
+[2024-11-30 18:36:38.595] [13383] JS console: [RTCConnection(1241629009880547340, default)] RTC connection state: RTC_DISCONNECTED => DISCONNECTED
+[2024-11-30 18:36:38.698] [13383] JS console: [RTCControlSocket(stream)] [WS CLOSED] (clean: false, code: 1006, reason: ) retrying in 2.69 seconds.
+[2024-11-30 18:36:38.711] [13383] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.72 seconds.

@@ -13,21 +13,25 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
+
 floating_modifier $mod
 
 default_border pixel 0
+for_window [floating] border pixel 0
+
+# Force floating by window title
+for_window [title="DUI"] floating enable
+
 
 tiling_drag modifier titlebar
 
 # Binds
 bindsym $mod+Return exec alacritty
-bindsym $mod+s exec alacritty -e ncspot
-bindsym $mod+t exec alacritty -e tmux
+bindsym $mod+s exec cool-retro-term -e ncspot
 bindsym $mod+b exec firefox
-bindsym $mod+f exec /home/dom/splorg/projects/scripts/tmux-fzf
-bindsym $mod+r exec rofi -show drun
+bindsym $mod+r exec rofi -show drun -theme onedark
 bindsym $mod+q kill
-bindsym $mod+e exec alacritty -e emacs -nw
+bindsym $mod+Print exec scrot -u ~/Pictures/screenshot_%Y-%m-%d_%H-%M-%S.png
 
 # change focus
 bindsym $mod+h focus left
@@ -44,8 +48,7 @@ bindsym $mod+Shift+l move right
 # enter fullscreen mode for the focused container
 bindsym $mod+Shift+f fullscreen toggle
 
-# change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+space floating toggle
 
 set $ws1 "1"
 set $ws2 "2"
@@ -83,6 +86,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 
+#bar
 bar {
-        status_command i3status
+	status_command i3status
 }

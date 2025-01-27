@@ -13,3 +13,8 @@
 # Mute microphone
 "pactl set-source-mute @DEFAULT_SOURCE@ toggle"
    XF86AudioMicMute
+
+# Take screenshot
+"/home/dom/projects/scripts/scrot-screenshot"
+	Mod4 + c
+

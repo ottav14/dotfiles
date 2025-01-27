@@ -1,6 +1,15 @@
+[window]
+padding = { x = 10, y = 10 }
+
 [font]
-normal = { family = "Hack Nerd Font", style = "Regular" }
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+size = 10
 
 [colors.primary]
-foreground = "#ffffff"
-background = "#000000"
+foreground = "#f8f3d6"
+background = "#0c0d1b"
+
+[colors.normal]
+blue = "#4d5599"
+magenta = "#463366"
+yellow = "#FFA630"
