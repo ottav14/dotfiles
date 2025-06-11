@@ -1,0 +1,18 @@
+[window]
+padding = { x = 10, y = 10 }
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+size = 10
+
+[colors.primary]
+foreground = "#f8f3d6"
+background = "#000000"
+
+[colors.normal]
+blue = "#4d5599"
+magenta = "#463366"
+yellow = "#FFA630"
+
+[terminal.shell]
+program = "/bin/zsh"

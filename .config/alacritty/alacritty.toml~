@@ -1,0 +1,6 @@
+[font]
+normal = { family = "BigBlueTerm437 Nerd Font Mono", style = "Regular" }
+
+[colors.primary]
+foreground = "#ffffff"
+background = "#000000"
