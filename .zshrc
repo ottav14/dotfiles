@@ -1,4 +1,5 @@
 PS1='%F{blue}%n%f@%F{magenta}%m%f: %~ %F{yellow}$ %f'
+[ -f "$HOME/.cache/wal/colors.sh" ] && source "$HOME/.cache/wal/colors.sh"
 export PATH=$PATH:/home/dom/scripts/:/home/dom/.local/bin:/home/dom/patches/cool-retro-term
 export MANPAGER="less -sR"
 export INFO_BROWSER=pinfo

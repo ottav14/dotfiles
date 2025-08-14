@@ -2,5 +2,5 @@
 xbindkeys &
 picom &
 slstatus &
-feh --bg-scale /home/dom/wallpapers/guy-fucks.jpg
+~/scripts/setbg &
 exec dwm

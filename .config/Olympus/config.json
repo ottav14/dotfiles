@@ -1,0 +1,37 @@
+{
+  "extradata":[],
+  "vsync":true,
+  "theme":"default",
+  "bg":0,
+  "quality":{
+    "bg":true,
+    "bgSnow":true,
+    "id":"high",
+    "bgBlur":true
+  },
+  "overlay":1,
+  "csd":false,
+  "mapeditor":"loenn",
+  "ahorn":{
+    "mode":"local",
+    "rootPath":"",
+    "vhdPath":"",
+    "vhdMountPath":"",
+    "theme":""
+  },
+  "parallax":1,
+  "updates":"stable",
+  "loennRootPath":"/home/dom/.config/Olympus/loenn",
+  "loennInstalledVersion":"",
+  "updateModsOnStartup":"none",
+  "mirrorPreferences":"gb,jade,otobot,wegfan",
+  "useOpenGL":"disabled",
+  "lastrun":-1,
+  "install":1,
+  "installs":[{
+      "name":"steam (#1)",
+      "path":"/home/dom/.local/share/Steam/steamapps/common/Celeste",
+      "type":"steam"
+    }],
+  "closeAfterOneClickInstall":"disabled"
+}

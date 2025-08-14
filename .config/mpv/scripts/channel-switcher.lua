@@ -1,103 +1,112 @@
 local utils = require 'mp.utils'
+local msg = require 'mp.msg'
 
--- Folder containing your playlists (.m3u files)
-local playlist_folder = "/home/dom/projects/dcrt/channels"
-local static_video = "/home/dom/projects/dcrt/static.mp4"
+-- Paths
+local playlist_dir = "/mnt/channels"
+local static_video = "/mnt//static.mp4"
 
-local playlists = {}
-local index = 1
+function load_random_playlist()
+    local files = utils.readdir(playlist_dir, "files")
+    if not files then
+        msg.error("Could not read playlist directory: " .. playlist_dir)
+        return
+    end
 
-local menu_visible = false
-local menu_index = 1
-local options = {"Play", "Pause", "Quit"}
+    local playlists = {}
+    for _, file in ipairs(files) do
+        if file:match("%.m3u$") then
+            table.insert(playlists, playlist_dir .. "/" .. file)
+        end
+    end
 
-function draw_menu()
-    if not menu_visible then return end
+    if #playlists == 0 then
+        msg.warn("No .m3u playlists found in: " .. playlist_dir)
+        return
+    end
 
-	mp.osd_message("FART!")
+    local idx = math.random(1, #playlists)
+    local random_playlist = playlists[idx]
 
-    --local ass = mp.create_osd_ass(1280, 720)
-    --ass:append("{\\an7}{\\fs20}{\\b1}Menu:\\N")
-    --for i, option in ipairs(options) do
-     --   if i == selected_index then
-     --     ass:append("{\\b1}> " .. option .. "\\N")
-     -- else
-     --     ass:append("  " .. option .. "\\N")
-     -- end
-   -- end
-    --mp.set_osd_ass(0, 0, ass.text)
+    msg.info("Loading random playlist: " .. random_playlist)
+    mp.commandv("loadlist", random_playlist, "replace")
 end
 
--- Scan folder and load all .m3u files into playlists table
+-- Delay a bit to avoid conflict with initial loading
+mp.register_event("idle", load_random_playlist)
+
+
+local playlists = {}
+local current_index = nil
+
+-- Scan .m3u files in the fixed directory
 local function load_playlists()
     playlists = {}
-    local files = utils.readdir(playlist_folder, "files")
+
+    local files = utils.readdir(playlist_dir, "files")
     if not files then
-        mp.msg.error("Could not read playlist folder: " .. playlist_folder)
+		msg.error("Could not read playlist directory: " .. playlist_dir)
         return
     end
 
     for _, file in ipairs(files) do
         if file:match("%.m3u$") then
-            table.insert(playlists, playlist_folder .. "/" .. file)
+            table.insert(playlists, playlist_dir .. "/" .. file)
         end
     end
 
-    if #playlists == 0 then
-        mp.msg.error("No .m3u playlists found in folder: " .. playlist_folder)
+    table.sort(playlists)
+end
+
+-- Detect the index of the currently loaded playlist
+local function detect_current_index()
+    local current = mp.get_property("path")
+    for i, pl in ipairs(playlists) do
+        if current and current:find(pl, 1, true) then
+            current_index = i
+            return
+        end
     end
+    current_index = nil
 end
 
-local function load_playlist(i)
-    if #playlists == 0 then
-        mp.osd_message("No playlists found")
-        return
+-- Load the next or previous playlist
+local function switch_playlist(direction)
+    if #playlists == 0 then return end
+
+    if current_index == nil then
+        detect_current_index()
     end
-    if i < 1 then i = #playlists end
-    if i > #playlists then i = 1 end
-    index = i
-	mp.commandv("loadfile", static_video)
-    mp.commandv("loadlist", playlists[index], "append")
-    local basename = playlists[index]:match("^.+/(.+)$")
-	local channel_name = basename:gsub("%.m3u$", "")
-    mp.osd_message(channel_name)
+
+    if current_index == nil then
+        current_index = 1
+    else
+        current_index = current_index + direction
+        if current_index < 1 then
+            current_index = #playlists
+        elseif current_index > #playlists then
+            current_index = 1
+        end
+    end
+
+    local target = playlists[current_index]
+    local _, filename = utils.split_path(target)
+    msg.info("Switching to playlist: " .. target)
+    mp.osd_message("Loading playlist: " .. filename)
+	mp.commandv("playlist-clear")
+    mp.commandv("loadfile", static_video, "append")
+    mp.commandv("loadlist", target, "append")
+	mp.commandv("playlist-next", "force")
+    mp.set_property_number("playlist-play-index", 0)
 
 end
 
-local function next_channel()
-    load_playlist(index + 1)
-end
-
-local function prev_channel()
-    load_playlist(index - 1)
-end
-
--- Initialize playlists on script load
-mp.set_property("loop-playlist", "inf")
-mp.set_property("shuffle", "yes")
-load_playlists()
-load_playlist(index)
-
--- Bind keys
-mp.add_key_binding("y", "toggle_menu", function()
-    menu_visible = not menu_visible
-    draw_menu()
+-- Bind ← and → keys
+mp.add_key_binding("UP", "next-playlist", function()
+    load_playlists()
+    switch_playlist(1)
 end)
 
-mp.add_key_binding("UP", "menu_up", function()
-    if not menu_visible then 
-		next_channel()
-		return
-	end
-    selected_index = (selected_index - 2) % #options + 1
-    draw_menu()
-end)
-
-mp.add_key_binding("DOWN", "menu_down", function()
-    if not menu_visible then 
-		prev_channel()
-		return 
-	end
-    selected_index = selected_index % #options + 1
-    draw_menu()
+mp.add_key_binding("DOWN", "prev-playlist", function()
+    load_playlists()
+    switch_playlist(-1)
 end)
