@@ -1,0 +1,19 @@
+# settings
+
+(GimpGegl-gegl-mirrors-config "2026-02-18 22:39:13"
+    (time 1771472353)
+    (m-angle 0)
+    (r-angle 0)
+    (n-segs 11)
+    (c-x 0.5)
+    (c-y 0.5)
+    (o-x 0)
+    (o-y 0)
+    (trim-x 0)
+    (trim-y 0)
+    (input-scale 6.7000000000000002)
+    (output-scale 1)
+    (clip yes)
+    (warp yes))
+
+# end of settings

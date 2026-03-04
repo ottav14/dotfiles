@@ -1,0 +1,312 @@
+[02:08:53] [Info] こんにちは！ Booting Zettlr at Tue Nov 18 2025 02:08:53 GMT-0500 (Eastern Standard Time).
+[02:08:53] [Info] Registering custom protocol safe-file
+[02:08:53] [Warning] [Assets Provider] Found outdated filter links.lua; copying ...
+[02:08:53] [Warning] [Assets Provider] Found outdated filter tags.lua; copying ...
+[02:08:53] [Info] [FSALCache] Creating new shard: 59
+[02:08:53] [Info] [FSALCache] Creating new shard: -9
+[02:08:53] [Info] [FSALCache] Creating new shard: 33
+[02:08:53] [Info] [FSALCache] Creating new shard: 10
+[02:08:53] [Info] [FSALCache] Creating new shard: 71
+[02:08:53] [Info] [FSALCache] Creating new shard: 76
+[02:08:54] [Info] [Workspace Provider] Synchronized roots in 0.03 seconds
+[02:08:54] [Info] [Window Manager] Window Manager started.
+[02:08:54] [Info] [Citeproc Provider] Loading CSL locale file at /usr/lib/zettlr/app.asar/.webpack/main/assets/csl-locales/locales-en-US.xml ...
+[02:08:54] [Info] [Document Manager] Restored 1 open windows.
+[02:08:54] [Info] [Update Provider] Checking https://zettlr.com/api/releases/latest for application updates ...
+[02:08:54] [Info] [AppServiceContainer] Boot successful!
+[02:08:55] [Info] [Update Provider] No new update available. Current version is v3.6.0.
+[02:10:28] [Info] [Workspace Provider] Synchronized roots in 0 seconds
+[02:11:07] [Info] [WATCHDOG] Emitting event: add:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:07] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:11:10] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:10] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:10] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:10] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:11:10] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:11:10] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:10] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:10] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:10] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:11:10] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:11:12] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:12] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:12] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:12] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:11:12] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:11:15] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:15] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:15] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:15] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:11:15] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:11:19] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:19] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:19] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:19] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:11:19] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:11:21] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:21] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:21] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:21] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:11:21] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:11:22] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:22] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:22] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:22] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:11:22] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:11:26] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:26] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:26] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:26] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:11:26] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:11:28] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:28] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:28] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:28] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:11:28] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:11:29] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:29] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:29] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:29] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:11:29] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:11:31] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:31] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:31] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:31] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:11:31] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:11:36] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:36] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:36] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:36] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:11:36] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:11:37] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:37] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:37] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:37] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:11:37] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:11:38] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:38] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:38] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:11:38] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:11:38] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:12:50] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:50] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:50] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:50] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:12:50] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:12:51] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:51] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:51] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:51] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:12:51] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:12:53] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:53] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:53] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:53] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:12:53] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:12:54] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:54] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:54] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:54] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:12:54] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:12:55] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:55] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:55] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:55] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:12:55] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:12:56] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:56] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:56] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:56] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:12:56] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:12:57] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:57] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:57] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:57] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:12:57] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:12:59] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:59] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:59] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:59] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:12:59] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:12:59] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:59] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:59] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:12:59] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:12:59] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:00] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:00] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:00] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:00] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:00] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:01] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:01] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:01] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:01] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:01] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:02] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:02] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:02] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:02] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:02] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:03] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:03] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:03] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:03] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:03] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:03] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:03] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:03] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:03] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:03] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:04] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:04] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:04] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:04] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:04] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:06] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:06] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:06] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:06] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:06] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:07] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:07] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:07] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:07] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:07] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:11] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:11] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:11] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:11] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:11] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:11] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:11] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:11] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:11] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:11] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:14] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:14] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:14] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:14] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:14] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:15] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:15] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:15] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:15] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:15] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:17] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:17] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:17] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:17] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:17] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:18] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:18] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:18] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:18] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:18] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:21] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:21] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:21] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:21] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:21] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:24] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:24] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:24] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:24] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:24] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:30] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:30] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:30] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:30] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:30] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:31] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:31] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:31] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:31] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:31] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:13:37] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:37] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:37] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:13:37] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:13:37] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:14:23] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:23] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:23] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:23] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:14:23] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:14:25] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:25] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:25] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:25] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:14:25] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:14:27] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:27] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:27] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:27] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:14:27] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:14:28] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:28] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:28] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:28] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:14:28] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:14:29] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:29] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:29] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:29] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:14:29] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:14:30] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:30] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:30] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:30] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:14:30] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:14:31] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:31] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:31] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:31] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:14:31] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:14:35] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:35] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:35] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:35] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:14:35] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:14:35] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:35] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:35] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:35] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:14:35] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:14:37] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:37] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:37] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:37] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:14:37] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:14:39] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:39] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:39] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:39] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:14:39] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:14:44] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:44] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:44] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:44] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:14:44] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:14:45] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:45] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:45] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:45] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:14:45] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:14:50] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:50] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:50] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:50] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:14:50] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[02:14:53] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:53] [Info] [WATCHDOG] Emitting event: change:/home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:53] [Info] [DocumentManager] Ignoring change for /home/dom/Documents/Probability Theory/Probability Space.md
+[02:14:53] [Info] [DocumentManager] File /home/dom/Documents/Probability Theory/Probability Space.md saved.
+[02:14:53] [Info] [WorkspaceManager] Root /home/dom/Documents/Probability Theory has changed
+[20:07:15] [Info] [Update Provider] Checking https://zettlr.com/api/releases/latest for application updates ...
+[20:07:16] [Info] [Update Provider] No new update available. Current version is v3.6.0.
+[21:07:15] [Info] [Update Provider] Checking https://zettlr.com/api/releases/latest for application updates ...
+[21:07:16] [Info] [Update Provider] No new update available. Current version is v3.6.0.
+[22:07:15] [Info] [Update Provider] Checking https://zettlr.com/api/releases/latest for application updates ...
+[22:07:16] [Info] [Update Provider] No new update available. Current version is v3.6.0.
+[23:07:15] [Info] [Update Provider] Checking https://zettlr.com/api/releases/latest for application updates ...

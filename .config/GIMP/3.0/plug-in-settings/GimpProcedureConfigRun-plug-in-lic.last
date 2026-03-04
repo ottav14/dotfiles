@@ -1,0 +1,12 @@
+# settings
+
+(effect-channel "hue")
+(effect-operator "gradient")
+(effect-convolve "with-source-image")
+(filter-length 28.5)
+(noise-magnitude 2.7999999999999998)
+(integration-steps 22.920000000000002)
+(min-value -56.600000000000001)
+(max-value 35.399999999999999)
+
+# end of settings

@@ -1,6 +1,5 @@
 #!/bin/bash
 xbindkeys &
-picom &
 slstatus &
-~/scripts/setbg &
+picom &
 exec dwm

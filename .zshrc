@@ -1,11 +1,28 @@
-PS1='%F{blue}%n%f@%F{magenta}%m%f: %~ %F{yellow}$ %f'
-[ -f "$HOME/.cache/wal/colors.sh" ] && source "$HOME/.cache/wal/colors.sh"
-export PATH=$PATH:/home/dom/scripts/:/home/dom/.local/bin:/home/dom/patches/cool-retro-term
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+export PATH=$PATH:/home/dom/scripts/:/home/dom/.local/bin:/home/dom/patches/cool-retro-term:/home/dom/bin
 export MANPAGER="less -sR"
 export INFO_BROWSER=pinfo
 
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+plugins=(
+    git
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+)
+source $ZSH/oh-my-zsh.sh
+
 alias e='emacs -nw'
-alias v='vim'
+alias v='nvim'
 alias p='sudo pacman -S'
 alias ps='pacman -Ss'
 alias pd='sudo pacman -R'
@@ -21,7 +38,8 @@ alias yd='yay -R'
 alias yq='yay -Q'
 alias f='cd "$(find /home/dom/projects -type d | fzf)" && tmux'
 alias b='bluetui'
-alias xr='xrandr --output HDMI-2 --mode 1920x1080 --right-of eDP-1 && setbg'
+alias dcb='docker compose up --build'
+alias xr='xrandr --output HDMI-2 --mode 1920x1080 --right-of eDP-1'
 alias xo='xrandr --output HDMI-2 --off'
 alias se='sudo systemctl enable'
 alias sd='sudo systemctl disable'
@@ -37,5 +55,9 @@ alias pak='pulseaudio -k'
 alias pas='pulseaudio --start'
 alias smi='sudo make install'
 alias hr='hyprctl reload'
-alias starwars='telnet towel.blinkenlights.nl'
 alias pipes='pipes.sh'
+alias ac='sudo arduino-cli compile --fqbn arduino:avr:mega'
+alias au='sudo arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:mega'
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

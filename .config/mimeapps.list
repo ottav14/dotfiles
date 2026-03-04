@@ -1,0 +1,13 @@
+
+[Default Applications]
+text/html=firefox.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/about=firefox.desktop
+x-scheme-handler/unknown=firefox.desktop
+x-scheme-handler/everest=/home/dom/.local/share/applications/Olympus.desktop
+image/jpeg=feh.desktop
+image/png=feh.desktop
+image/gif=feh.desktop
+image/bmp=feh.desktop
+image/webp=feh.desktop

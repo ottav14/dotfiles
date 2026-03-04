@@ -1,0 +1,10 @@
+[Bookmarks]
+[Recent]
+/home/dom/projects/daworld/public/models/
+/home/dom/projects/daworld/blend_files/
+/home/dom/projects/daworld/textures/
+/home/dom/projects/dspace/public/
+/home/dom/projects/dspace/public/floor/
+!Home
+/home/dom/
+/home/dom/pics/

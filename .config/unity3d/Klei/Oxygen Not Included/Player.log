@@ -1,0 +1,512 @@
+Mono path[0] = '/home/dom/.local/share/Steam/steamapps/common/OxygenNotIncluded/OxygenNotIncluded_Data/Managed'
+Mono config path = '/home/dom/.local/share/Steam/steamapps/common/OxygenNotIncluded/OxygenNotIncluded_Data/MonoBleedingEdge/etc'
+Preloaded 'cimgui.so'
+Preloaded 'libSimDLL.so'
+Preloaded 'libfmodstudio.so'
+Preloaded 'libresonanceaudio.so'
+Preloaded 'libsdkencryptedappticket.so'
+Preloaded 'libsteam_api.so'
+Display 0 '0': 1920x1080 (primary device).
+Display 1 'DELL SE2417HG 24"': 1920x1080 (secondary device).
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Unable to load player prefs
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize engine version: 2022.3.45f1 (a13dfa44d684)
+[Subsystems] Discovering subsystems at path /home/dom/.local/share/Steam/steamapps/common/OxygenNotIncluded/OxygenNotIncluded_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Renderer: Mesa Intel(R) UHD Graphics (CML GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 25.2.3-arch1.2
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2
+_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_text
+ure_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fra
+gment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 798619968
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.226 seconds
+- Finished resetting the current domain, in  0.002 seconds
+Default vsync count 1
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0/1 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+UnloadTime: 0.456095 ms
+Desktop is 1920 x 1080 @ 60 Hz
+[04:55:21.711] [1] [INFO] KProfiler: Start
+[04:55:21.857] [1] [INFO] Applying resolution 1920x1080 @60hz (fullscreen: FullScreenWindow)
+[04:55:21.857] [1] [INFO] Low Res Textures? No
+[04:55:21.878] [1] [INFO] Date: 09/29/2025 00:55:21
+[04:55:21.879] [1] [INFO] Build: ??-679336-? (release)
+[04:55:21.881] [1] [INFO] Creating SteamManager.
+[S_API] SteamAPI_Init(): Loaded '/home/dom/.local/share/Steam/linux64/steamclient.so' OK.
+Setting breakpad minidump AppID = 457140
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561198202516184 [API loaded no]
+[04:55:21.917] [1] [INFO] DistributionPlatform initialized.
+[04:55:21.917] [1] [INFO] -----------------------------------------------------------
+[04:55:21.922] [1] [INFO] Build: U56-679336-V (release)
+[04:55:21.922] [1] [INFO] -----------------------------------------------------------
+[04:55:21.922] [1] [INFO] DLC Information
+[04:55:21.926] [1] [INFO] -----------------------------------------------------------
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+SYSTEM INFO:
+    Platform=LinuxPlayer
+    OSname=Linux 6.16 Arch Linux  64bit
+    OSversion=6.16.7.1
+    CPUmodel=PC
+    CPUdeviceType=Desktop
+    ProcBits=64
+    CPUcount=8
+    CPUtype=Intel(R) Core(TM) i7-10610U CPU @ 1.80GHz
+    SystemMemoryMegs=15613
+    GPUgraphicsDeviceID=0
+    GPUname=Mesa Intel(R) UHD Graphics (CML GT2)
+    GPUgraphicsDeviceType=OpenGLCore
+    GPUgraphicsDeviceVendor=Intel
+    GPUgraphicsDeviceVendorID=0
+    GPUgraphicsDeviceVersion=OpenGL 4.6 (Core Profile) Mesa 25.2.3-arch1.2
+    GPUmemoryMegs=512
+    GPUgraphicsMultiThreaded=False
+    GPUgraphicsShaderLevel=50
+    GPUmaxTextureSize=16384
+    GPUnpotSupport=Full
+    GPUsupportedRenderTargetCount=8
+    GPUsupports2DArrayTextures=True
+    GPUsupports3DTextures=True
+    GPUsupportsComputeShaders=True
+    GPUsupportsImageEffects=True
+    GPUsupportsInstancing=True
+    GPUsupportsRenderToCubemap=True
+    GPUsupportsShadows=True
+    GPUsupportsSparseTextures=False
+    GPUcopyTextureSupport=Basic, Copy3D, DifferentTypes, TextureToRT, RTToTexture
+    System Language=English
+[04:55:23.366] [1] [INFO] Initializing at 2025-09-29 04:55:23.366
+[04:55:23.366] [1] [INFO] Save path: /home/dom/.config/unity3d/Klei/Oxygen Not Included
+[04:55:24.290] [1] [INFO] Using builtin mod system.
+[04:55:24.408] [1] [INFO] Localization.Initialize!
+[04:55:24.421] [1] [INFO] Logged into Steam with ID:76561198202516184, NAME:Sleve McDichael
+[04:55:24.421] [1] [INFO] [Account] Requesting auth ticket from Steam
+[04:55:25.470] [5] [INFO] [Account] Got login for user KU_loTMNTxR
+[04:55:25.687] [7] [INFO] World settings reload complete!
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 60/1 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+Unloading 4806 unused Assets to reduce memory usage. Loaded Objects now: 60617.
+Total: 83.134503 ms (FindLiveObjects: 4.399845 ms CreateObjectMapping: 3.117905 ms MarkObjects: 71.237047 ms  DeleteObjects: 4.379063 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+UnloadTime: 4.408931 ms
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 64667.
+Total: 86.645923 ms (FindLiveObjects: 4.203520 ms CreateObjectMapping: 2.067764 ms MarkObjects: 80.023171 ms  DeleteObjects: 0.350960 ms)
+
+[04:55:33.055] [1] [INFO] -- MAIN MENU -- 
+[04:55:33.181] [1] [INFO] Checking which steam branch we're on. Got: []
+[04:55:33.271] [1] [INFO] Screen resolution updated, saving values to prefs: 1920x1080 @ 60, fullscreen: FullScreenWindow
+[04:55:58.267] [26] [INFO] storytraits:
+  - storytraits/MegaBrainTank
+  - storytraits/CritterManipulator
+  - storytraits/LonelyMinion
+  - storytraits/FossilHunt
+  - storytraits/MorbRoverMaker
+
+
+
+[04:55:58.267] [26] [INFO] WORLDGEN START seed=SNDST-A-1013719130-0-D3-0, cluster=clusters/SandstoneDefault
+[04:55:58.270] [26] [INFO] -----------------------------------------------------------
+[04:55:58.270] [26] [INFO] Generating world: worlds/SandstoneDefault
+[04:56:13.931] [26] [INFO] Applied story trait 'storytraits/MegaBrainTank'
+[04:56:14.214] [26] [INFO] Applied story trait 'storytraits/CritterManipulator'
+[04:56:14.558] [26] [INFO] Applied story trait 'storytraits/LonelyMinion'
+[04:56:15.298] [26] [INFO] Applied story trait 'storytraits/FossilHunt'
+[04:56:15.897] [26] [INFO] Applied story trait 'storytraits/MorbRoverMaker'
+THREAD - started 'SimThread' (140662202676928)
+[04:56:33.681] [26] [INFO] -----------------------------------------------------------
+[04:56:33.709] [26] [INFO] -----------------------------------------------------------
+[04:56:33.711] [26] [INFO] WORLDGEN COMPLETE (took 35.44s)
+
+
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 65142.
+Total: 108.790854 ms (FindLiveObjects: 4.757508 ms CreateObjectMapping: 2.380057 ms MarkObjects: 101.494507 ms  DeleteObjects: 0.158250 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+UnloadTime: 4.255742 ms
+Unloading 108 unused Assets to reduce memory usage. Loaded Objects now: 86842.
+Total: 111.662091 ms (FindLiveObjects: 5.331197 ms CreateObjectMapping: 4.716567 ms MarkObjects: 101.373739 ms  DeleteObjects: 0.240062 ms)
+
+[04:56:35.265] [1] [INFO] Attempting to start a new game with current world gen
+[04:56:35.762] [1] [INFO] Attempt success
+THREAD - started 'SimThread' (140662202676928)
+[04:56:35.799] [1] [INFO] 76.40461 Level Loaded.... backend
+0:3(12): error: extension `GL_OVR_multiview2' unsupported in vertex shader
+
+Note: Creation of internal variant of shader 'Hidden/InternalErrorShader' failed.
+ShaderProgram is unsupported, but because jobified rendering is enabled the ShaderProgram can not be removed.
+0:3(12): error: extension `GL_OVR_multiview2' unsupported in vertex shader
+
+Note: Creation of internal variant of shader 'GUI/Text Shader' failed.
+ShaderProgram is unsupported, but because jobified rendering is enabled the ShaderProgram can not be removed.
+Shader warmup: 74 shaders 319 combinations 5.776s
+[04:56:42.184] [1] [WARNING] No name tables provided to generate world name. Using GENERIC
+[04:56:42.455] [1] [INFO] -- GAME --
+[04:56:42.457] [1] [INFO] [InterfaceTool] Initializing configs with values of DefaultKey: Invalid Configs: 3
+[04:56:42.461] [1] [INFO] [InterfaceTool] Pushing config with key: Invalid
+[04:56:42.524] [1] [INFO] Timelapse.OnNewDay but worldsToScreenshot is not empty
+[04:56:42.552] [1] [INFO] Checking which steam branch we're on. Got: []
+[04:56:42.599] [1] [WARNING] Trying to get lock entry log1 before codex cache has been initialized.
+[04:56:43.465] [1] [INFO] Screen resolution updated, saving values to prefs: 1920x1080 @ 60, fullscreen: FullScreenWindow
+[04:57:23.315] [1] [WARNING] Codex SubEntry  cannot find parent codex entry with id Railgun
+False
+False
+False
+False
+[04:57:25.158] [1] [INFO] WattsonMessage OnActivate
+[04:57:54.680] [1] [INFO] Active Mods (0):
+[04:57:55.232] [1] [INFO] Saved to [/home/dom/.config/unity3d/Klei/Oxygen Not Included/cloud_save_files/76561198202516184/Fart Squad/Fart Squad.sav]
+[04:57:55.702] [1] [INFO] Saving screenshot to /home/dom/.config/unity3d/Klei/Oxygen Not Included/cloud_save_files/76561198202516184/Fart Squad/Fart Squad.png
+[04:57:56.093] [1] [INFO] Saving screenshot to /home/dom/.config/unity3d/Klei/Oxygen Not Included/RetiredColonies/Fart Squad/00000/Starano
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+False
+[05:06:31.326] [1] [INFO] Timelapse.OnNewDay but worldsToScreenshot is not empty
+[05:06:33.100] [1] [INFO] Average frame time: 0.05086818
+[05:06:33.574] [1] [INFO] Saved to [/home/dom/.config/unity3d/Klei/Oxygen Not Included/cloud_save_files/76561198202516184/Fart Squad/auto_save/Fart Squad Cycle 2.sav]
+[05:06:33.994] [1] [INFO] Saving screenshot to /home/dom/.config/unity3d/Klei/Oxygen Not Included/cloud_save_files/76561198202516184/Fart Squad/auto_save/Fart Squad Cycle 2.png
+[05:06:39.591] [1] [WARNING] Missing Anim: [0xBFAE8782]. You may have to run Collect Anim on the Assets prefab
+False
+False
+False
+False
+False
+False
+False
+[05:09:47.018] [1] [INFO] SetAchievement BASIC_COMFORTS True
+[05:09:47.019] [1] [INFO] StoreStats True
+False
+False
+False
+[05:11:39.354] [1] [INFO] Timelapse.OnNewDay but worldsToScreenshot is not empty
+[05:11:44.370] [1] [INFO] Average frame time: 0.0501117
+[05:11:44.748] [1] [INFO] Saved to [/home/dom/.config/unity3d/Klei/Oxygen Not Included/cloud_save_files/76561198202516184/Fart Squad/auto_save/Fart Squad Cycle 3.sav]
+[05:11:45.236] [1] [INFO] Saving screenshot to /home/dom/.config/unity3d/Klei/Oxygen Not Included/cloud_save_files/76561198202516184/Fart Squad/auto_save/Fart Squad Cycle 3.png
+False
+[05:14:10.945] [1] [INFO] Saving screenshot to /home/dom/.config/unity3d/Klei/Oxygen Not Included/RetiredColonies/Fart Squad/00000/Starano
+False
+False
+False
+False
+False
+False
+False
+Game.OnApplicationQuit()
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 1271 frames, [2.0 KB-4.0 KB]: 1738 frames, [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 2074 frames, [16.0 KB-32.0 KB]: 166 frames, [32.0 KB-64.0 KB]: 41 frames, [128.0 KB-256.0 KB]: 4 frames, [256.0 KB-0.5 MB]: 21455 frames, [0.5 MB-1.0 MB]: 7 frames, [1.0 MB-2.0 MB]: 2 frames, [2.0 MB-4.0 MB]: 2 frames, [4.0 MB-8.0 MB]: 2 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 7.9 MB
+      Peak Allocated Bytes 7.9 MB
+      Overflow Count 1
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 208 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 504.0 KB
+      Peak Allocated Bytes 423.4 KB
+      Overflow Count 103
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 67.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 67.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 67.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 280.0 KB
+      Peak Allocated Bytes 142.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 67.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 2
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 212 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 212 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 96.0 KB
+      Overflow Count 32
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 7
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 65 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 67.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 67.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 212 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 58337
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 6 Subsections = 6144 buckets. Failed count: 786510
+        32B: 25 Subsections = 12800 buckets. Failed count: 206316
+        48B: 33 Subsections = 11264 buckets. Failed count: 4574943
+        64B: 145 Subsections = 37120 buckets. Failed count: 246765
+        80B: 37 Subsections = 7577 buckets. Failed count: 88212
+        96B: 3 Subsections = 512 buckets. Failed count: 258271
+        112B: 2 Subsections = 292 buckets. Failed count: 3210
+        128B: 5 Subsections = 640 buckets. Failed count: 71238
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 1 frames, [32.0 MB-64.0 MB]: 4242 frames, [64.0 MB-128.0 MB]: 22520 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 7
+      Peak Allocated memory 113.0 MB
+      Peak Large allocation bytes 20.0 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 3496 frames, [16.0 MB-32.0 MB]: 15180 frames, [32.0 MB-64.0 MB]: 6340 frames, [64.0 MB-128.0 MB]: 1737 frames, [128.0 MB-256.0 MB]: 7 frames, [256.0 MB-0.50 GB]: 3 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 20
+      Peak Allocated memory 313.1 MB
+      Peak Large allocation bytes 42.7 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 1
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 200
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 6 Subsections = 6144 buckets. Failed count: 786510
+        32B: 25 Subsections = 12800 buckets. Failed count: 206316
+        48B: 33 Subsections = 11264 buckets. Failed count: 4574943
+        64B: 145 Subsections = 37120 buckets. Failed count: 246765
+        80B: 37 Subsections = 7577 buckets. Failed count: 88212
+        96B: 3 Subsections = 512 buckets. Failed count: 258271
+        112B: 2 Subsections = 292 buckets. Failed count: 3210
+        128B: 5 Subsections = 640 buckets. Failed count: 71238
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 1 frames, [16.0 MB-32.0 MB]: 3496 frames, [32.0 MB-64.0 MB]: 14610 frames, [64.0 MB-128.0 MB]: 8653 frames, [128.0 MB-256.0 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 5
+      Peak Allocated memory 173.5 MB
+      Peak Large allocation bytes 168.0 MB
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [64.0 MB-128.0 MB]: 26763 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 67.3 MB
+      Peak Large allocation bytes 48.0 MB
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 41
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 6 Subsections = 6144 buckets. Failed count: 786510
+        32B: 25 Subsections = 12800 buckets. Failed count: 206316
+        48B: 33 Subsections = 11264 buckets. Failed count: 4574943
+        64B: 145 Subsections = 37120 buckets. Failed count: 246765
+        80B: 37 Subsections = 7577 buckets. Failed count: 88212
+        96B: 3 Subsections = 512 buckets. Failed count: 258271
+        112B: 2 Subsections = 292 buckets. Failed count: 3210
+        128B: 5 Subsections = 640 buckets. Failed count: 71238
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [2.0 MB-4.0 MB]: 26763 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 3.1 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 3499 frames, [16.0 MB-32.0 MB]: 1 frames, [32.0 MB-64.0 MB]: 23262 frames, [64.0 MB-128.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 7
+      Peak Allocated memory 67.9 MB
+      Peak Large allocation bytes 46.7 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 6 Subsections = 6144 buckets. Failed count: 786510
+        32B: 25 Subsections = 12800 buckets. Failed count: 206316
+        48B: 33 Subsections = 11264 buckets. Failed count: 4574943
+        64B: 145 Subsections = 37120 buckets. Failed count: 246765
+        80B: 37 Subsections = 7577 buckets. Failed count: 88212
+        96B: 3 Subsections = 512 buckets. Failed count: 258271
+        112B: 2 Subsections = 292 buckets. Failed count: 3210
+        128B: 5 Subsections = 640 buckets. Failed count: 71238
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 6138 frames, [16.0 KB-32.0 KB]: 11505 frames, [32.0 KB-64.0 KB]: 9119 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 32.3 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 3500 frames, [64.0 KB-128.0 KB]: 23263 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 67.2 KB
+      Peak Large allocation bytes 0 B

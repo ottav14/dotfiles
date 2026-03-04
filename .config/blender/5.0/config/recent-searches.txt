@@ -1,0 +1,13 @@
+Generate ▸ Subdivision Surface
+   texture-image
+L0 Texture.003|[essentials_brushes-mesh_texture.blend]
+L0 Texture.004|[essentials_brushes-mesh_texture.blend]
+L  gool|[essentials_brushes-mesh_texture.blend]
+   Render Result
+   gool.jpg
+Shader ▸ Diffuse BSDF
+Shader ▸ Principled BSDF
+ 0 wood
+ F plaster
+Texture ▸ Image Texture
+ 0 plank_flooring_04

@@ -1,20 +1,22 @@
 # Increase volume
 "pactl set-sink-volume @DEFAULT_SINK@ +5000"
-   XF86AudioRaiseVolume
+	XF86AudioRaiseVolume
 
 # Decrease volume
 "pactl set-sink-volume @DEFAULT_SINK@ -5000"
-   XF86AudioLowerVolume
+	XF86AudioLowerVolume
 
 # Mute volume
 "pactl set-sink-mute @DEFAULT_SINK@ toggle"
-   XF86AudioMute
+	XF86AudioMute
 
 # Mute microphone
 "pactl set-source-mute @DEFAULT_SOURCE@ toggle"
-   XF86AudioMicMute
+	XF86AudioMicMute
 
 # Take screenshot
-"/home/dom/projects/scripts/scrot-screenshot"
-	Mod4 + c
+"flameshot gui"
+	Print
 
+"alacritty -e spotify_player"
+    Mod4 + s

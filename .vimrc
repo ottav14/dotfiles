@@ -1,4 +1,3 @@
-
 " Setup Plug
 call plug#begin()
 
@@ -6,7 +5,11 @@ Plug 'lervag/vimtex'
 Plug 'ycm-core/YouCompleteMe', { 'do': './install.py' }
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'leafOfTree/vim-svelte-plugin'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'leafgarland/typescript-vim'
+Plug 'evanleck/vim-svelte'
+Plug 'pangloss/vim-javascript'
 
 call plug#end()
 
@@ -26,6 +29,9 @@ set relativenumber
 set mouse=a
 
 " *** CONFIG ***
+
+" Svelte
+let g:svelte_preprocessors = ['typescript']
 
 " VimTeX 
 let g:vimtex_view_method = 'zathura' 

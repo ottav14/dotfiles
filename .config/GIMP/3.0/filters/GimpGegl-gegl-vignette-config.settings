@@ -1,0 +1,17 @@
+# settings
+
+(GimpGegl-gegl-vignette-config "2026-02-18 22:55:38"
+    (time 1771473338)
+    (shape circle)
+    (color
+        (color "R'G'B'A float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+    (radius 1.2)
+    (softness 0.80000000000000004)
+    (gamma 2)
+    (proportion 1)
+    (squeeze 0)
+    (x 0.5)
+    (y 0.5)
+    (rotation 0))
+
+# end of settings

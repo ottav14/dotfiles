@@ -1,0 +1,31 @@
+<unity_prefs version_major="1" version_minor="1">
+	<pref name="AUTOSAVE_" type="int">1</pref>
+	<pref name="Achieved_ReachedSummit" type="int">1</pref>
+	<pref name="Ambience" type="float">1.1</pref>
+	<pref name="FPS_" type="int">0</pref>
+	<pref name="JITTER_" type="int">0</pref>
+	<pref name="LANG_" type="string">RW5nbGlzaA==</pref>
+	<pref name="Master" type="float">1.1</pref>
+	<pref name="Music" type="float">-0</pref>
+	<pref name="PIXWIDTH_" type="int">384</pref>
+	<pref name="SAVESLOT_" type="int">0</pref>
+	<pref name="Screenmanager Fullscreen mode" type="int">1</pref>
+	<pref name="Screenmanager Fullscreen mode Default" type="int">1</pref>
+	<pref name="Screenmanager Resolution Height" type="int">768</pref>
+	<pref name="Screenmanager Resolution Height Default" type="int">768</pref>
+	<pref name="Screenmanager Resolution Use Native" type="int">0</pref>
+	<pref name="Screenmanager Resolution Use Native Default" type="int">1</pref>
+	<pref name="Screenmanager Resolution Width" type="int">1360</pref>
+	<pref name="Screenmanager Resolution Width Default" type="int">1024</pref>
+	<pref name="Screenmanager Window Position X" type="int">0</pref>
+	<pref name="Screenmanager Window Position Y" type="int">0</pref>
+	<pref name="SoundEffects" type="float">1.1</pref>
+	<pref name="TARGET_FPS_" type="int">-1</pref>
+	<pref name="UnitySelectMonitor" type="int">0</pref>
+	<pref name="base_level" type="int">4</pref>
+	<pref name="saved_effects" type="int">3</pref>
+	<pref name="shadows_settings" type="int">2</pref>
+	<pref name="unity.player_session_count" type="string">MQ==</pref>
+	<pref name="unity.player_sessionid" type="string">NTY3NzEwNTI2MTMyNDcwMjk1OQ==</pref>
+	<pref name="vsync" type="int">1</pref>
+</unity_prefs>

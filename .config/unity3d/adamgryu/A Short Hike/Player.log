@@ -1,0 +1,540 @@
+Mono path[0] = '/home/dom/.local/share/Steam/steamapps/common/A Short Hike/AShortHike_Data/Managed'
+Mono config path = '/home/dom/.local/share/Steam/steamapps/common/A Short Hike/AShortHike_Data/MonoBleedingEdge/etc'
+Preloaded 'libsteam_api.so'
+Display 0 '0': 1920x1080 (primary device).
+Display 1 'SAMSUNG 7"': 1360x768 (secondary device).
+Unable to load player prefs
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize engine version: 2021.3.27f1 (ca3ffb99bcc6)
+[Subsystems] Discovering subsystems at path /home/dom/.local/share/Steam/steamapps/common/A Short Hike/AShortHike_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=0
+Renderer: Mesa Intel(R) UHD Graphics (CML GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 25.2.1-arch1.5
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2
+_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_text
+ure_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fra
+gment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 928968848
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.128 seconds
+Default vsync count 1
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+UnloadTime: 1.035994 ms
+Desktop is 1920 x 1080 @ 60 Hz
+Changing real window size to 1360 x 768
+[Singleton] An instance of QuickUnityTools.Audio.SoundPlayer is needed in the scene, so '(Resource Global Singleton) SoundPlayer(Clone) (UnityEngine.GameObject)' was loaded as a prefab with DontDestroyOnLoad.
+[Singleton] An instance of TimerServiceLocator is needed in the scene, so '(Global Singleton) TimerServiceLocator (UnityEngine.GameObject)' was created with DontDestroyOnLoad.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[TimerServiceLocator] TimerManager: Created a new service in the scene.
+Setting up 4 worker threads for Enlighten.
+UnloadTime: 4.442737 ms
+[Singleton] An instance of QuickUnityTools.Input.FocusableUserInputManager is needed in the scene, so '(Global Singleton) QuickUnityTools.Input.FocusableUserInputManager (UnityEngine.GameObject)' was created with DontDestroyOnLoad.
+Setting breakpad minidump AppID = 1055540
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198202516184 [API loaded no]
+[TimerServiceLocator] Clearing the cached scene services.
+[Singleton] An instance of ServiceLocator is needed in the scene, so '(Global Singleton) ServiceLocator (UnityEngine.GameObject)' was created with DontDestroyOnLoad.
+[Singleton] An instance of GlobalData is needed in the scene, so '(Global Singleton) GlobalData (UnityEngine.GameObject)' was created with DontDestroyOnLoad.
+[ServiceLocator] DialogueController: Located service and caching it.
+[TimerServiceLocator] TimerManager: Created a new service in the scene.
+All Devices: Generic Controller
+Start Device: Generic Controller
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 4145.
+Total: 3.709658 ms (FindLiveObjects: 0.221355 ms CreateObjectMapping: 0.136893 ms MarkObjects: 3.261136 ms  DeleteObjects: 0.089641 ms)
+
+[ServiceLocator] UI: Located service and caching it.
+Running node TitleScreenIntroStart
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+The tree PineTree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Bush must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree GrassyFlowers must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree WindFlower must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PineTree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Bush must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree GrassyFlowers must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree WindFlower must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree WindFlower Variant must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PineTree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Bush must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree GrassyFlowers must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PineTreeSnowy Variant must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree WindFlower must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PineTree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Bush must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PineTreeSnowy Variant must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree GrassyFlowers must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Bush must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PineTree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree PineTreeSnowy Variant must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree GrassyFlowers must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree BushOrange must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnloadTime: 4.063540 ms
+[ServiceLocator] LevelController: Located service and caching it.
+[Singleton] An instance of GameServiceLocator is needed in the scene, so '(Global Singleton) GameServiceLocator (UnityEngine.GameObject)' was created with DontDestroyOnLoad.
+[GameServiceLocator] CullingRegionManager: Located service and caching it.
+[GameServiceLocator] LevelController: Located service and caching it.
+[Singleton] An instance of QuickUnityTools.Audio.Soundscape+AmbientSoundManager is needed in the scene, so '(Global Singleton) QuickUnityTools.Audio.Soundscape+AmbientSoundManager (UnityEngine.GameObject)' was created with DontDestroyOnLoad.
+[TimerServiceLocator] TimerManager: The cached service was null! Hopefully it was destroyed in a scene transition?
+[TimerServiceLocator] TimerManager: Created a new service in the scene.
+[TimerServiceLocator] Clearing the cached scene services.
+[ServiceLocator] Clearing the cached scene services.
+[GameServiceLocator] Clearing the cached scene services.
+[TimerServiceLocator] TimerManager: Located service and caching it.
+[ServiceLocator] LevelController: Located service and caching it.
+[GameServiceLocator] LevelController: Located service and caching it.
+[GameServiceLocator] AtmosphereController: Located service and caching it.
+[ServiceLocator] PixelFilterAdjuster: Located service and caching it.
+[Singleton] An instance of MusicManager is needed in the scene, so '(Resource Global Singleton) MusicManager(Clone) (UnityEngine.GameObject)' was loaded as a prefab with DontDestroyOnLoad.
+[ServiceLocator] FPSCounter: Located service and caching it.
+[ServiceLocator] UI: Located service and caching it.
+Watered Plants: 0
+Unloading 95 unused Assets to reduce memory usage. Loaded Objects now: 31235.
+Total: 8.960117 ms (FindLiveObjects: 2.326954 ms CreateObjectMapping: 0.448950 ms MarkObjects: 5.974143 ms  DeleteObjects: 0.209379 ms)
+
+[GameServiceLocator] LevelUI: Located service and caching it.
+[ServiceLocator] DialogueController: Located service and caching it.
+Running node AuntStart
+Running node AuntIntroStart
+Running node AuntIntroEnd
+Running node AuntStart
+Running node AuntChat
+Running node AuntStart
+Running node AuntChat
+[GameServiceLocator] UI: Located service and caching it.
+Running node AuntRunOffStart
+Running node KidStart
+Running node KidStart
+Running node FrogMiniStart
+Running node FrogMiniStart
+Running node FrogTrade
+Running node GoatStart
+Running node FoxStart
+Running node VisitorCenterStart
+Running node BuyFeatherStart
+Running node ExplainGoldenFeather
+Running node ToughBirdStart
+Running node ToughBirdSell
+Running node ToughBirdBuyFeather
+Running node AveryBuildingSignStart
+Running node AveryBuildingSignStart
+[GameServiceLocator] TransitionAnimation: Located service and caching it.
+Running node VisitorCenterStart
+Running node BuyFeatherStart
+Running node FishBuyerStart
+Audio clip is not assigned to a value!
+Audio clip is not assigned to a value!
+Running node FishingTutorialStart
+Running node FishingTutorialBegin
+Running node FishTutCastStart
+Running node FishTutChatStart
+Running node FishTutNibbleStart
+Running node FishTutBiteStart
+Running node FishTutPullStart
+Running node FishingTutorialStart
+Running node FisherTalk
+Running node FishTutDoneStart
+clean up object
+clean up object
+clean up object
+Running node ToughBirdStart
+Running node ToughBirdSell
+Running node ToughBirdBuyFeather
+Running node PolarBearStart
+Cannot release from player since it is not held.
+Trying to parent a destroyed object!
+Running node CellphoneStart
+Running node Cellphone2
+Running node Cellphone3
+Running node ExplainDayToMom
+Running node Cellphone4
+[GameServiceLocator] AchievementManager: Located service and caching it.
+Achievement: ReachedSummit
+Audio clip is not assigned to a value!
+Running node DadDeerStart
+Audio clip is not assigned to a value!
+clean up object
+clean up object
+clean up object
+Running node FishBuyerStart
+Running node FishBuyerMenu
+Running node BuyFish
+Running node BuyFishQuip
+Running node BuyFishAction
+Running node BuyFishEnd
+Running node BuyFish
+Running node BuyFishAgain
+Running node BuyFishEnd
+clean up object
+clean up object
+clean up object
+Running node FishBuyerStart
+Running node FishBuyerMenu
+Running node BuyFish
+Running node BuyFishQuip
+Running node BuyFishAction
+Running node BuyFishEnd
+Running node TucanStart
+Running node OtherKidStart
+Running node RhinoStart
+Running node RhinoAsk
+Running node RhinoInClub
+Running node RhinoTut
+[GameServiceLocator] DialogueController: Located service and caching it.
+Running node ClimbWall1Start
+Running node ClimbWall2Start
+Running node Artist1Start
+Running node BeachHikerStart
+Running node OtherKidStart
+Running node ConsiderKidQuest
+Audio clip is not assigned to a value!
+Running node VisitorCenterStart
+Running node BuyMerchStart
+Running node VisitorCenterStart
+Running node BuyFeatherStart
+Running node RaceOpponentStart
+Running node BeforeRaceIntro
+Running node AveryIntroduction
+Running node AveryIntroQuestion
+Running node BeforeRaceIntro
+Running node MountainTopRaceIntro
+Running node BeforeRaceMenu
+Running node BeginRace
+Audio clip is not assigned to a value!
+Audio clip is not assigned to a value!
+Audio clip is not assigned to a value!
+Audio clip is not assigned to a value!
+Running node RaceTurtleStart
+Running node Runner2Start
+Running node Runner2Start
+Running node RunRabbitStart
+Running node Runner4Start
+Running node Runner4Start
+[Singleton] Instance 'GameServiceLocator' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GameServiceLocator' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GameServiceLocator' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GameServiceLocator' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GameServiceLocator' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GameServiceLocator' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GameServiceLocator' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GameServiceLocator' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GameServiceLocator' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GameServiceLocator' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+[Singleton] Instance 'GlobalData' already destroyed on application quit. Won't create again - returning null.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 334 frames, [1.0 KB-2.0 KB]: 1 frames, [4.0 KB-8.0 KB]: 1626 frames, [8.0 KB-16.0 KB]: 7 frames, [32.0 KB-64.0 KB]: 5800 frames, [64.0 KB-128.0 KB]: 162526 frames, [256.0 KB-0.5 MB]: 4 frames, [2.0 MB-4.0 MB]: 2 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 4.0 MB
+      Peak Allocated Bytes 2.3 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 128.0 KB
+      Peak Allocated Bytes 128.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 0.5 MB
+      Peak Allocated Bytes 482.0 KB
+      Overflow Count 420
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 49.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 49.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 49.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 49.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 49.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 4
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 260.0 KB
+      Peak Allocated Bytes 256.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 7
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 49.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 49.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 168 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 900
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 1887096
+        32B: 12 Subsections = 6144 buckets. Failed count: 315274
+        48B: 26 Subsections = 8874 buckets. Failed count: 26073561
+        64B: 157 Subsections = 40192 buckets. Failed count: 34158
+        80B: 23 Subsections = 4710 buckets. Failed count: 68896
+        96B: 14 Subsections = 2389 buckets. Failed count: 96394
+        112B: 9 Subsections = 1316 buckets. Failed count: 40103
+        128B: 11 Subsections = 1408 buckets. Failed count: 57616
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 1973 frames, [16.0 MB-32.0 MB]: 5637 frames, [32.0 MB-64.0 MB]: 21988 frames, [64.0 MB-128.0 MB]: 140702 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 8
+      Peak Allocated memory 116.6 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 415 frames, [16.0 MB-32.0 MB]: 763 frames, [32.0 MB-64.0 MB]: 29 frames, [64.0 MB-128.0 MB]: 28391 frames, [128.0 MB-256.0 MB]: 140702 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 6
+      Peak Allocated memory 200.3 MB
+      Peak Large allocation bytes 117.8 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 4
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 8
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 2
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 1887096
+        32B: 12 Subsections = 6144 buckets. Failed count: 315274
+        48B: 26 Subsections = 8874 buckets. Failed count: 26073561
+        64B: 157 Subsections = 40192 buckets. Failed count: 34158
+        80B: 23 Subsections = 4710 buckets. Failed count: 68896
+        96B: 14 Subsections = 2389 buckets. Failed count: 96394
+        112B: 9 Subsections = 1316 buckets. Failed count: 40103
+        128B: 11 Subsections = 1408 buckets. Failed count: 57616
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 939 frames, [64.0 KB-128.0 KB]: 278 frames, [2.0 MB-4.0 MB]: 169083 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 3.8 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 421 frames, [0.5 MB-1.0 MB]: 749 frames, [8.0 MB-16.0 MB]: 169130 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 13.5 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 2733
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 1887096
+        32B: 12 Subsections = 6144 buckets. Failed count: 315274
+        48B: 26 Subsections = 8874 buckets. Failed count: 26073561
+        64B: 157 Subsections = 40192 buckets. Failed count: 34158
+        80B: 23 Subsections = 4710 buckets. Failed count: 68896
+        96B: 14 Subsections = 2389 buckets. Failed count: 96394
+        112B: 9 Subsections = 1316 buckets. Failed count: 40103
+        128B: 11 Subsections = 1408 buckets. Failed count: 57616
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 170300 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 6
+      Peak Allocated memory 21.3 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 1162 frames, [2.0 MB-4.0 MB]: 8 frames, [8.0 MB-16.0 MB]: 38 frames, [16.0 MB-32.0 MB]: 168331 frames, [32.0 MB-64.0 MB]: 761 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 11
+      Peak Allocated memory 38.2 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 1887096
+        32B: 12 Subsections = 6144 buckets. Failed count: 315274
+        48B: 26 Subsections = 8874 buckets. Failed count: 26073561
+        64B: 157 Subsections = 40192 buckets. Failed count: 34158
+        80B: 23 Subsections = 4710 buckets. Failed count: 68896
+        96B: 14 Subsections = 2389 buckets. Failed count: 96394
+        112B: 9 Subsections = 1316 buckets. Failed count: 40103
+        128B: 11 Subsections = 1408 buckets. Failed count: 57616
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 747 frames, [16.0 KB-32.0 KB]: 1226 frames, [32.0 KB-64.0 KB]: 168327 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 44.2 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [8.0 KB-16.0 KB]: 1205 frames, [16.0 KB-32.0 KB]: 6404 frames, [32.0 KB-64.0 KB]: 22417 frames, [64.0 KB-128.0 KB]: 140274 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 95.7 KB
+      Peak Large allocation bytes 0 B

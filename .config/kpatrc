@@ -1,0 +1,21 @@
+[General Settings]
+Cardname=svg-gm-paris
+
+[KgTheme]
+Theme=themes/cleangreen.desktop
+
+[Scores]
+loosestreak0=4
+loosestreak30=11
+maxloosestreak0=4
+maxloosestreak30=11
+maxwinstreak0=0
+maxwinstreak30=1
+minmoves0=-1
+minmoves30=106
+total0=4
+total30=14
+winstreak0=0
+winstreak30=0
+won0=0
+won30=1

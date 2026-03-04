@@ -5,6 +5,8 @@
 		"tailwind": false,
 		"srcDir": false,
 		"app": true,
-		"turbopack": false
+		"turbopack": false,
+		"linter": "none",
+		"reactCompiler": false
 	}
 }

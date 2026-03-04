@@ -1,0 +1,7 @@
+/home/dom/projects/daworld/blend_files/room.blend
+/home/dom/projects/dspace/public/space.blend
+/home/dom/projects/dspace/public/debug.blend
+/home/dom/projects/dspace/public/crate.blend
+/home/dom/projects/dspace/public/room.blend
+/home/dom/projects/dspace/public/bed.blend
+/home/dom/shotgun.blend
