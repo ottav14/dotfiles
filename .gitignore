@@ -39,6 +39,7 @@ slstatus/
 # Generated/secret companion files inside otherwise hand-crafted config dirs
 .config/ncspot/userstate.cbor
 .config/spotify-tui/.spotify_token_cache.json
+.config/spotify-tui/client.yml
 .config/qutebrowser/autoconfig.yml
 .config/qutebrowser/bookmarks/
 .config/qutebrowser/quickmarks

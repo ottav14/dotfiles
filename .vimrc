@@ -33,11 +33,11 @@ set mouse=a
 " Svelte
 let g:svelte_preprocessors = ['typescript']
 
-" VimTeX 
-let g:vimtex_view_method = 'zathura' 
+" VimTeX
+let g:vimtex_view_method = 'zathura'
 let g:vimtex_compiler_method = 'latexmk'
 
-" YouCompleteMe 
+" YouCompleteMe
 let g:ycm_auto_trigger = 1
 let g:ycm_min_num_of_chars_for_completion = 2
 let g:ycm_autoclose_preview_window_after_completion = 1
