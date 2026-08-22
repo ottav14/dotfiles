@@ -1,6 +1,0 @@
-[Bookmarks]
-[Recent]
-/home/dom/projects/dust/assets/
-/home/dom/projects/dust/public/
-/home/dom/red-magnolia/
-/home/dom/ottavhq/

@@ -1,0 +1,52 @@
+# App state/cache/data that isn't hand-crafted config — see CLAUDE.md.
+# Deliberately untracked rather than deleted; files remain on disk.
+.config/chromium/
+.config/coc/
+.config/Zettlr/
+.config/GIMP/
+.config/arduino-ide/
+.config/Arduino IDE/
+.config/unity3d/
+.config/transmission/
+.config/blender/
+.config/wireshark/
+.config/go/
+.config/qBittorrent/
+.config/Olympus/
+.config/inkscape/
+.config/FreeCAD/
+.config/audacity/
+.config/vlc/
+.config/cura/
+.config/godot/
+.config/Meltytech/
+.config/create-next-app-nodejs/
+.config/nextjs-nodejs/
+.config/dconf/
+.config/wal/
+.config/systemd/
+.oh-my-zsh/
+slstatus/
+.config/kdenliverc
+.config/kdeglobals
+.config/kpatrc
+.config/kpat.kmessagebox
+.config/QtProject.conf
+.config/mimeapps.list
+.config/user-dirs.dirs
+.config/user-dirs.locale
+
+# Generated/secret companion files inside otherwise hand-crafted config dirs
+.config/ncspot/userstate.cbor
+.config/spotify-tui/.spotify_token_cache.json
+.config/qutebrowser/autoconfig.yml
+.config/qutebrowser/bookmarks/
+.config/qutebrowser/quickmarks
+.config/pavucontrol.ini
+.config/pulse/
+
+# Vendored/orphaned gitlinks (never actually checked out) and editor artifacts
+.config/alacritty/catppuccin/
+.config/alacritty/#*#
+.config/alacritty/*~
+.config/alacritty/*.bak
